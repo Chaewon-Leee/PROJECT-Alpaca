@@ -44,8 +44,8 @@
 ### Model Guidline
   1. [input / output 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/Check_Input%26Output.ipynb)
   2. 데이터셋 fine-tuning
-
     - [dataset](https://github.com/jadecxliu/codeqa)
+
     1. generation instruction dataset in specific domain (code Q&A)
       - [alpaca format 형식 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
       - [prompt.txt 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
