@@ -1,0 +1,2205 @@
+[
+  {
+    "instruction": "How is list printed ?",
+    "input": "def listprint data lst=[data root] while lstptrlen lst gt 1 print lstptr data doclist lstptr\tdata doclist[lstptr] lst pop",
+    "output": "in an iterative manner.",
+    "most_similar_instructions": {
+      "How is a list sorted ?": 0.6666666666666665,
+      "How is list made of empty strings ?": 0.5454545454545454,
+      "How is g -connected ?": 0.5,
+      "How is what imported ?": 0.5,
+      "How is pianobar installed ?": 0.5,
+      "How is point located ?": 0.5,
+      "How did list order ?": 0.5,
+      "How do list create ?": 0.5
+    },
+    "avg_similarity_score": 0.03721386049699978
+  },
+  {
+    "instruction": "Edit the code to support predictions.",
+    "input": "def predict data x_bst clf bst fit x_test predict clf x_test return bst",
+    "output": "def predict data x_bst clf bst fit x_test y_pred clf predict x_test return y_pred",
+    "most_similar_instructions": {
+      "What does the code support ?": 0.5454545454545454,
+      "What did the code support ?": 0.5454545454545454,
+      "When does the code add to ?": 0.5,
+      "What did the code deprecate to ?": 0.5
+    },
+    "avg_similarity_score": 0.1745407626280858
+  },
+  {
+    "instruction": "Create a function to log errors and warnings.",
+    "input": "import logging logging setwarnings False def loggingfunc logger logging getLogger '' logger setLevellogging INFO",
+    "output": "def loggingfunc logger logging getLogger '' logger setLevellogging INFO logger addHandlerlogging StreamHandler sys stderr logging addFilterlogging Filterwarnings logging addFilterlogging Filter Errors",
+    "most_similar_instructions": {
+      "What does a tracking function log ?": 0.42857142857142855,
+      "What adds a function to dictionary ?": 0.42857142857142855,
+      "What limits a function to timeout seconds ?": 0.39999999999999997,
+      "What takes a function and a step ?": 0.39999999999999997,
+      "How do a function apply to all values ?": 0.375,
+      "What returns a function to wrap the results ?": 0.375,
+      "When do a function log all internal exceptions ?": 0.375,
+      "What does a function map to new matcher factories ?": 0.35294117647058826
+    },
+    "avg_similarity_score": 0.045495126162344746
+  },
+  {
+    "instruction": "What should be within if statement ?",
+    "input": "def add entryif entry['category'] == 'Foo':",
+    "output": "a comparison operation to determine equality between entry['category'] and 'Foo'",
+    "most_similar_instructions": {
+      "What should be written directory ?": 0.5454545454545454,
+      "What should distinct be used ?": 0.5454545454545454,
+      "What should be tested here ?": 0.5454545454545454,
+      "What should be looked where ?": 0.5454545454545454,
+      "What should be inserted where ?": 0.5454545454545454,
+      "What should be exposed in ipython ?": 0.5
+    },
+    "avg_similarity_score": 0.12694455667885343
+  },
+  {
+    "instruction": "What is being accomplished here ?",
+    "input": "def getacronymsstring inputstr sstr '' for m in re findall r'[A-Z]{3} ', inputstr sstr sstr m return sstr",
+    "output": "extracting acronyms from a given string",
+    "most_similar_instructions": {
+      "What is raised here ?": 0.6666666666666665,
+      "What is zap here ?": 0.6666666666666665,
+      "What is dispatching here ?": 0.6666666666666665,
+      "What is converted to cssname here ?": 0.5454545454545454,
+      "What is the private key here ?": 0.5454545454545454,
+      "What is being run in devappserver2 ?": 0.5454545454545454,
+      "What is the master list here ?": 0.5454545454545454,
+      "What is giving the expected output here ?": 0.5,
+      "What is what ?": 0.5,
+      "What is exists ?": 0.5
+    },
+    "avg_similarity_score": 0.14105274748310212
+  },
+  {
+    "instruction": "How can this code be improved ?",
+    "input": "def swapnum a b temp a a b b temp return a, b",
+    "output": "the code can be modified to use tuple unpacking for a more concise result, as such: def swapnum a b a, b = b, a  return a, b",
+    "most_similar_instructions": {
+      "How can this function be called when ?": 0.6153846153846153,
+      "What can this be ?": 0.6,
+      "How can command be selected ?": 0.5454545454545454,
+      "How can it be quoted ?": 0.5454545454545454,
+      "What can this be used ?": 0.5454545454545454,
+      "How can wcs be initialized ?": 0.5454545454545454,
+      "How can it be run ?": 0.5454545454545454,
+      "How can it be embedded ?": 0.5454545454545454,
+      "How can it be written ?": 0.5454545454545454
+    },
+    "avg_similarity_score": 0.09907157688685003
+  },
+  {
+    "instruction": "Rearrange the code for readability.",
+    "input": "def move files for file in source os listdir source shutil move os path join source file os path join dest file",
+    "output": "def move files for file in os listdir source shutil move os path join sourcefile os path join destfile",
+    "most_similar_instructions": {
+      "What does the code affix for ?": 0.5454545454545454,
+      "What does the code open for reading ?": 0.5,
+      "What did the code set for bench ?": 0.5,
+      "What does the code execute for topics ?": 0.5,
+      "What does the code clean for display ?": 0.5,
+      "What does the code compute for regression ?": 0.5,
+      "What does the code fix for now ?": 0.5,
+      "What does the code preprocess for training ?": 0.5,
+      "What does the code use for comparison ?": 0.5
+    },
+    "avg_similarity_score": 0.183265381001476
+  },
+  {
+    "instruction": "What is the purpose of this code ?",
+    "input": "def isprime num x 2 while xlt num if num % x 0 return False x += 1 return True",
+    "output": "checking if a number is prime or not",
+    "most_similar_instructions": {
+      "What is the code ensures ?": 0.6666666666666666,
+      "What is the code find ?": 0.6666666666666666,
+      "What do the primary purpose of this be ?": 0.6666666666666666,
+      "What does the purpose of this function be ?": 0.6666666666666666,
+      "What is the code guess ?": 0.6666666666666666,
+      "What is the code takes ?": 0.6666666666666666,
+      "What is the code determine ?": 0.6666666666666666,
+      "What is the code ensure ?": 0.6666666666666666,
+      "What is the code check ?": 0.6666666666666666
+    },
+    "avg_similarity_score": 0.27829962225015986
+  },
+  {
+    "instruction": "What will happen if pet name is duplicated ?",
+    "input": "names = ['Loki', 'Milo', 'Kona', 'Milo'] def unique pet names list newlist []for pet names in names if pet names not in newlist newlistappend pet names return newlist",
+    "output": "the duplicate entry, 'Milo', will be ignored and the newlist will only contain a single entry for 'Milo'",
+    "most_similar_instructions": {
+      "What will it return if the value is undefined ?": 0.47058823529411764,
+      "What will the name is raise if it is not ?": 0.4444444444444445,
+      "What will is raise a configurationerror if it is not ?": 0.4444444444444445,
+      "What does the code return if name is not specified ?": 0.4444444444444445,
+      "What does the code return if a name is provided ?": 0.4444444444444445,
+      "What does the code raise if name is a private method name ?": 0.4,
+      "What does the code raise if attribute name is a reserved word ?": 0.4,
+      "What skips test if condition is false ?": 0.39999999999999997,
+      "What skips test if condition is true ?": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.11574287041102113
+  },
+  {
+    "instruction": "Fix the code syntax.",
+    "input": "def generate and store integer for input in range4 integer = input**2 print{input, integer}",
+    "output": "def generate and store integer for input in range 4 integer = input ** 2 print(input, integer)",
+    "most_similar_instructions": {
+      "Did the code expect ?": 0.5,
+      "What given the code ?": 0.5,
+      "Has the code ensures ?": 0.5,
+      "Does the code make ?": 0.5,
+      "Does the code ensure ?": 0.5,
+      "What does the code _ ?": 0.5
+    },
+    "avg_similarity_score": 0.1940667223555842
+  },
+  {
+    "instruction": "How will this code change the list ?",
+    "input": "def remove from list lst=[1, 2, 3, 4, 5] for i in range lenlst lstpopi return lst",
+    "output": "the list will be reversed, so that the final list lst will have the values 5, 4, 3, 2, 1.",
+    "most_similar_instructions": {
+      "How does the code change the system ?": 0.5714285714285714,
+      "How does the code render the comment list ?": 0.5333333333333333,
+      "How does the code orthonormaliz the \" list \" of functions ?": 0.5,
+      "How will this function return ?": 0.5,
+      "How will this helper function format the current time ?": 0.5,
+      "How does the code get the region list and sort ?": 0.47058823529411764,
+      "How does the code compress the given list of strings ?": 0.47058823529411764,
+      "How does the code return the list of all users ?": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.11917871392377385
+  },
+  {
+    "instruction": "Summarize the loop's purpose.",
+    "input": "myslist=[1, 2, 3, 4, 5] def searchlist mysqlst searchnums=[] for num in myslist if num%2 0 searchnumsappend num return searchnums",
+    "output": "the loop is searching for all even numbers within myslist and appending them to the empty list searchnums.",
+    "most_similar_instructions": {
+      "What is the loop intersecting ?": 0.4000000000000001,
+      "Where is the loop intersecting ?": 0.4000000000000001,
+      "What matches the literal string |s| ?": 0.3636363636363636,
+      "What do the string s convert ?": 0.3636363636363636,
+      "How does the code get loop ?": 0.3636363636363636,
+      "What is intersecting the other loop ?": 0.3636363636363636
+    },
+    "avg_similarity_score": 0.10389826879130576
+  },
+  {
+    "instruction": "What does data calcsign do ?",
+    "input": "def data calcsign sign data data keys list data keys sort data tmp [] op val 0 if sign 0 tmpappend -1 val data keysitem op val else tmpappend 1 val data keysitem op val return tmp",
+    "output": "calculating the sign of a given data set.",
+    "most_similar_instructions": {
+      "What does data load ?": 0.6666666666666665,
+      "What does data contain ?": 0.6666666666666665,
+      "What does the code do ?": 0.6,
+      "What does this function do ?": 0.6
+    },
+    "avg_similarity_score": 0.24908478717075674
+  },
+  {
+    "instruction": "Is the data loaded into a Pandas dataframe ?",
+    "input": "pandas read_csv('data.csv', index_col=0, parse_dates=True)",
+    "output": "Yes",
+    "most_similar_instructions": {
+      "What is matching the filters into a cluster ?": 0.5,
+      "When is the minion loaded the pillar data into ?": 0.47058823529411764,
+      "What converts the input into a pandas timestamp object ?": 0.47058823529411764,
+      "When is the data synchronized ?": 0.4615384615384615,
+      "When is the minion loaded the raw pillar data into ?": 0.4444444444444445,
+      "What is containing the training data ?": 0.42857142857142855
+    },
+    "avg_similarity_score": 0.11375972102583967
+  },
+  {
+    "instruction": "How can we modify the code to make sure the output is displayed in hex ?",
+    "input": "print('the output is: ', output)",
+    "output": "print('the output is: ', hex(output))",
+    "most_similar_instructions": {
+      "How does the code read the output ?": 0.4545454545454545,
+      "How does the code verify the output ?": 0.4545454545454545,
+      "How does the code return the output ?": 0.4545454545454545
+    },
+    "avg_similarity_score": 0.13278439458935856
+  },
+  {
+    "instruction": "What does the filter_none method do?",
+    "input": "cars_not_none = cars[cars.Filter_None()]",
+    "output": "The filter_none method filters out None values in the dataframe.",
+    "most_similar_instructions": {
+      "What does the code do ?": 0.6666666666666666
+    },
+    "avg_similarity_score": 0.29149218639752644
+  },
+  {
+    "instruction": "How can the code be modified to receive a list as input?",
+    "input": "def check_in_list(item):\n    if item in some_list:\n        return True\n    else: \n        return False",
+    "output": "def check_in_list(item,some_list):\n    if item in some_list:\n        return True\n    else: \n        return False",
+    "most_similar_instructions": {
+      "How can the input be converted to a float ?": 0.5714285714285715,
+      "How does the code join a list ?": 0.5263157894736842,
+      "How did the code cut a list ?": 0.5263157894736842,
+      "What does the code add to a list ?": 0.5,
+      "How can we be converted to a datetimelike ?": 0.5,
+      "What does the code convert to a list ?": 0.5
+    },
+    "avg_similarity_score": 0.15492623761158256
+  },
+  {
+    "instruction": "How can we modify the code to use an associated list as an input?",
+    "input": "def check_in_list(item):\n    if item in some_list:\n        return True\n    else: \n        return False",
+    "output": "def check_in_list(item,some_dict):\n    if item in some_dict.keys():\n        return True\n    else: \n        return False",
+    "most_similar_instructions": {
+      "How can the code be modified to receive a list as input?": 0.6153846153846153,
+      "How can we modify the code to make sure the output is displayed in hex ?": 0.4827586206896552,
+      "Does the code save an array as an image ?": 0.43478260869565216,
+      "How did the code use to evaluate an expresseion ?": 0.43478260869565216,
+      "How did the code use ?": 0.4210526315789473,
+      "What does the code add to an existing list of data ?": 0.4,
+      "How can we connect to solr ?": 0.4,
+      "What can we use an image ?": 0.4,
+      "How does the code add commands to sudoers list for execution ?": 0.4,
+      "What can we query to find the domain controller to use ?": 0.4
+    },
+    "avg_similarity_score": 0.1286713949500273
+  },
+  {
+    "instruction": "How can we make the output of the function always be in lowercase?",
+    "input": "def make_lowercase(text):\n    return text.capitalize()",
+    "output": "def make_lowercase(text):\n    return text.lower()",
+    "most_similar_instructions": {
+      "How do the output of the lambda function cache ?": 0.5454545454545455,
+      "How can we modify the code to make sure the output is displayed in hex ?": 0.5,
+      "How do the output of the controller cache ?": 0.4761904761904762,
+      "How can the configuration of the specified zone be installed on the machine ?": 0.46153846153846156,
+      "Where do the output of the lambda function cache ?": 0.4545454545454546,
+      "How can the location of the tarball optional additional mods to include be supplied ?": 0.4444444444444445,
+      "How does the validity of the number passed in check ?": 0.4347826086956522,
+      "How can the argument be serialized ?": 0.42105263157894735
+    },
+    "avg_similarity_score": 0.09624882652220536
+  },
+  {
+    "instruction": "How can we modify the code to get the items in the list in reverse order?",
+    "input": "def reverse_list(list):\n    for item in list:\n        print(item)",
+    "output": "def reverse_list(list):\n    for item in reversed(list):\n        print(item)",
+    "most_similar_instructions": {
+      "How can we modify the code to make sure the output is displayed in hex ?": 0.5806451612903225,
+      "How can we modify the code to use an associated list as an input?": 0.5333333333333333,
+      "What does the code get from the in order in order ?": 0.5185185185185185,
+      "How does the code get the node from the full node list ?": 0.5,
+      "What does the code write to the file locations in the given the list ?": 0.4666666666666667,
+      "How does the code run the experiment in the < path ?": 0.4615384615384615,
+      "How does the code get the region list and sort ?": 0.4615384615384615,
+      "How does the code get the name of the file ?": 0.4615384615384615,
+      "How does the code play the files in the path ?": 0.4615384615384615,
+      "How does the code get the version of the sdk ?": 0.4615384615384615
+    },
+    "avg_similarity_score": 0.1329646919064086
+  },
+  {
+    "instruction": "How can we modify the code to check if the number is a prime?",
+    "input": "def check_prime(num):\n    if num > 1:\n        # code\n    else:\n        print('The number is not a prime.')",
+    "output": "def check_prime(num):\n    if num > 1:\n        for i in range(2,num):\n            if (num % i) == 0:\n                print('The number is not a prime.')\n                break\n        else:\n            print('The number is a prime.')\n    else:\n        print('The number is not a prime.')",
+    "most_similar_instructions": {
+      "How can we modify the code to make sure the output is displayed in hex ?": 0.6206896551724138,
+      "How can we modify the code to get the items in the list in reverse order?": 0.5333333333333333,
+      "How can we modify the code to use an associated list as an input?": 0.5,
+      "How does the code check the correctness of a gradient function ?": 0.4799999999999999,
+      "How does the code return the number ?": 0.4761904761904762,
+      "How does the code check a string ?": 0.4761904761904762,
+      "How can the code be modified to receive a list as input?": 0.4615384615384615,
+      "What does the code return if the directory is a git repository ?": 0.4615384615384615,
+      "What used to check if the date is valid a helper function ?": 0.4615384615384615,
+      "What does the code detect if the directory is a git repository ?": 0.4615384615384615
+    },
+    "avg_similarity_score": 0.1507223534040306
+  },
+  {
+    "instruction": "Does this code correctly check if a number is a power of two?",
+    "input": "def is_power_of_two(num):\n    if num == 0:\n        return False\n    else:\n        return num % 2 == 0",
+    "output": "No, this code does not correctly check if a number is a power of two. It only checks if the number is even. To check if a number is a power of two, we need to check if the number is evenly divisible by two and if the result of dividing by two is also a power of two.",
+    "most_similar_instructions": {
+      "How can we modify the code to check if the number is a prime?": 0.4444444444444445,
+      "What does the code return if a name is provided ?": 0.4347826086956522,
+      "What does the code truncate to a number of letters ?": 0.4347826086956522,
+      "What does the code write a number of random bytes ?": 0.4347826086956522,
+      "What does the code return if it is a decimal ?": 0.4347826086956522,
+      "What does the code raise if validate_class is not a subclass of adapter_class ?": 0.42857142857142855,
+      "How does the code decode a query string into a sequence of two - element tuples ?": 0.42857142857142855
+    },
+    "avg_similarity_score": 0.13000220212444735
+  },
+  {
+    "instruction": "Can the code be modified to print the smallest number in the list?",
+    "input": "def print_smallest(list):\n    for item in list:\n        print(item)",
+    "output": "def print_smallest(list):\n    small = list[0]\n    for item in list:\n        if item < small:\n            small = item\n    print(small)",
+    "most_similar_instructions": {
+      "How can the code be modified to receive a list as input?": 0.5599999999999999,
+      "How can we modify the code to get the items in the list in reverse order?": 0.5517241379310345,
+      "What does the code write to the file locations in the given the list ?": 0.5185185185185186,
+      "What replaces the code in the_list ?": 0.5,
+      "What does the code add to the existing values in the dictionary ?": 0.48000000000000004,
+      "What does the code load according to the parameters in the dictionary parameters ?": 0.46153846153846156,
+      "What does the code add to the pixel list ?": 0.4545454545454546,
+      "What does the code add to the list table ?": 0.4545454545454546,
+      "What does the code add in the list things ?": 0.4545454545454546,
+      "What does the code add to the watch list ?": 0.4545454545454546
+    },
+    "avg_similarity_score": 0.13339796660522943
+  },
+  {
+    "instruction": "Can we modify the code to convert a string to a list?",
+    "input": "def str_to_list(string):\n    # code",
+    "output": "def str_to_list(string):\n    return list(string)",
+    "most_similar_instructions": {
+      "How does the code convert a date string to a datenum ?": 0.6086956521739131,
+      "How does the code convert a coordinate string to a tuple ?": 0.6086956521739131,
+      "What does the code convert to a list ?": 0.6,
+      "How does the code convert a text string to a byte string ?": 0.5833333333333334,
+      "How does the code convert a string to ascii ?": 0.5714285714285715,
+      "What does the code convert to a python list ?": 0.5714285714285715
+    },
+    "avg_similarity_score": 0.1466832558120089
+  },
+  {
+    "instruction": "Can the code be modified to remove the last character from a string?",
+    "input": "def remove_last(string):\n    # code",
+    "output": "def remove_last(string):\n    return string[:-1]",
+    "most_similar_instructions": {
+      "What can be used to remove the stem from a sentence ?": 0.5833333333333334,
+      "What does the code remove from a string ?": 0.5714285714285714,
+      "How can the code be modified to receive a list as input?": 0.5599999999999999,
+      "Can the code be modified to print the smallest number in the list?": 0.5384615384615384,
+      "What does the code remove from string ?": 0.5,
+      "What does the code remove from a text or byte string ?": 0.4999999999999999
+    },
+    "avg_similarity_score": 0.14671846830952587
+  },
+  {
+    "instruction": "What is being logged ?",
+    "input": "import logging logger disp loggingerror level loggingdebug Format loggingbasicformat datefmt date log loggingdebugmessage",
+    "output": "Error messages are being logged with a basic formatting, date format and debug level.",
+    "most_similar_instructions": {
+      "What is being accomplished here ?": 0.6666666666666665,
+      "What is being run in devappserver2 ?": 0.6,
+      "What is what ?": 0.5714285714285715,
+      "What is exists ?": 0.5714285714285715,
+      "What is where ?": 0.5714285714285715,
+      "What is being ran the api instance ?": 0.5454545454545454,
+      "What is process_jon being used actually ?": 0.5454545454545454,
+      "What is listing entry ?": 0.5
+    },
+    "avg_similarity_score": 0.15522266818101202
+  },
+  {
+    "instruction": "How is the value modified?",
+    "input": "def modify value value * 3",
+    "output": "The value is multiplied by 3, resulting in a new modified value.",
+    "most_similar_instructions": {
+      "How is the value from destination header formatted ?": 0.6153846153846154,
+      "How is the program run ?": 0.6,
+      "How is the project set ?": 0.6,
+      "How is a value tagged ?": 0.6,
+      "How is the text cleared ?": 0.6,
+      "How is the distance returned ?": 0.6,
+      "How is the code traversed ?": 0.6,
+      "How is the cover closed ?": 0.6
+    },
+    "avg_similarity_score": 0.13283147964281036
+  },
+  {
+    "instruction": "How is the matrix used for calculations?",
+    "input": "def compute matrix values row col for x in range row for y in range col matrix values x y + matrix values row col return matrix values",
+    "output": "The matrix values are used to add the values of two specified rows and columns, resulting in a new value stored in the matrix.",
+    "most_similar_instructions": {
+      "How is the stream factory used ?": 0.6153846153846153,
+      "How is the class prior override used ?": 0.5714285714285714,
+      "How is the value modified?": 0.5,
+      "How is the username assigned ?": 0.5,
+      "How is the node patched ?": 0.5,
+      "Where is the localeregexurlresolver used ?": 0.5,
+      "How is the code traversed ?": 0.5,
+      "How is the distance returned ?": 0.5,
+      "How is the text cleared ?": 0.5
+    },
+    "avg_similarity_score": 0.11886932618843896
+  },
+  {
+    "instruction": "How does the list get sorted ?",
+    "input": "def compare_list l1 l2 l1 sorted sorted l1 l2 sorted sorted l2 return l1 sorted l2 sorted",
+    "output": "The list gets sorted by using the built-in sorted function which sorts the list in ascending order.",
+    "most_similar_instructions": {
+      "How does the code get strokeradius ?": 0.6666666666666666,
+      "How does the code get vector3 ?": 0.6666666666666666,
+      "How does the code get items ?": 0.6666666666666666,
+      "How does the deauth list populate ?": 0.6666666666666666,
+      "How does the code get network ?": 0.6666666666666666,
+      "How does the code get logger ?": 0.6666666666666666,
+      "How does the code get rotationmatrix ?": 0.6666666666666666,
+      "How does the code get user ?": 0.6666666666666666
+    },
+    "avg_similarity_score": 0.2058888592791306
+  },
+  {
+    "instruction": "Refactor this code using the given principles ?",
+    "input": "def calculate season date date date month date day None if date month in [3 4 5] season 'Spring'elif date month in [6 7 8] season 'Summer'elif date month in [9 10 11] season 'Fall'elif date month in [12 1 2] season 'Winter'else raise Exception 'Unexpectedmonth%d' % date month if date day is None return seasonelse if season 'Spring' and date day > 15 : season 'Summer'elif season 'Summer' and date day > 15 : season 'Fall'elif season 'Fall' and date day > 15 : season 'Winter'elif season 'Winter' and date day > 15 : season 'Spring'return season",
+    "output": "re-write the code using a switch-case statement instead of if-else statements",
+    "most_similar_instructions": {
+      "What did the code read using the given encoding ?": 0.5,
+      "What does the code open using the given name ?": 0.5,
+      "What does the code find using the given hint ?": 0.5,
+      "What does the code make using the given traceback ?": 0.5,
+      "What does the code open using the given mode ?": 0.5,
+      "What does the code classify using the given decision tree ?": 0.47058823529411764,
+      "What does the code install using the given translation domain ?": 0.47058823529411764,
+      "What is using the given engine ?": 0.4615384615384615
+    },
+    "avg_similarity_score": 0.10257572930277006
+  },
+  {
+    "instruction": "What can be improved in the following code ?",
+    "input": "def calculate total colors colors None if colors is None raise Exception 'Colorslistnotspecified'total colors 0 for c in colors total colors total colors + c return total colors",
+    "output": "The code can be improved by utilizing Python\u2019s built-in sum() function which calculates the sum of all elements in a given list of numbers. By replacing the loop that adds up each number in the \u201ccolors\u201d list to the \u201ctotal\u201d variable with a single call to the sum() function, this code can be made much more efficient.",
+    "most_similar_instructions": {
+      "What can be configured in the ui ?": 0.6666666666666666,
+      "What can be found in the given package ?": 0.625,
+      "What can be saved in the file system ?": 0.625,
+      "What be in the database ?": 0.6153846153846154,
+      "What can that be passed in the command line ?": 0.5882352941176471,
+      "What can be found in $ path ?": 0.5714285714285715,
+      "What be used in the config ?": 0.5714285714285715,
+      "What be run in the background ?": 0.5714285714285715,
+      "What can be created in studio ?": 0.5714285714285715,
+      "What avoids in the following situations ?": 0.5714285714285715
+    },
+    "avg_similarity_score": 0.2535164542125535
+  },
+  {
+    "instruction": "Why is this approach preferable ?",
+    "input": "def calculate average age ages None if ages is None raise Exception 'Ageslistnotspecified'total age 0 for age in ages total age total age + age if len ages == 0 return 0 else return total age / len ages",
+    "output": "Using the approach of calculating the average age from the \u201cages\u201d list by summing up the list elements and then dividing it with the list\u2019s length is preferable because it is more efficient and thus requires less computation time. It is also more compact since it only requires a single line of code.",
+    "most_similar_instructions": {
+      "Why is this important ?": 0.6666666666666665,
+      "Why is this useful ?": 0.6666666666666665,
+      "Why is this have needed ?": 0.6,
+      "Why is this a hack mostly ?": 0.5454545454545454,
+      "Why is this a combination login / complete ?": 0.5,
+      "Why is this not is a context manager ?": 0.4615384615384615,
+      "Why is this kept in a separate module ?": 0.4615384615384615,
+      "What is this used ?": 0.4444444444444445
+    },
+    "avg_similarity_score": 0.015702118782297523
+  },
+  {
+    "instruction": "How does this code handle exceptions ?",
+    "input": "def calculate area rect width None length Noneif width is None or length is None raise Exception 'Sizenotspecified'return width * length",
+    "output": "The code will raise a \u201cSize not specified\u201d exception when the width or length is not specified.",
+    "most_similar_instructions": {
+      "How does this works ?": 0.6,
+      "How does exceptions ignore ?": 0.6,
+      "How does this work ?": 0.6,
+      "What does the code handle ?": 0.5454545454545454,
+      "How does the code resize ?": 0.5454545454545454,
+      "How does the code hide ?": 0.5454545454545454,
+      "How does the code execute ?": 0.5454545454545454,
+      "How does the code fold ?": 0.5454545454545454
+    },
+    "avg_similarity_score": 0.173504194509716
+  },
+  {
+    "instruction": "Rewrite this code in a functional approach",
+    "input": "def square list list None result list None if list is None return None for item in list result list append item*item return result list",
+    "output": "Using the map() function, this code can be written in a functional approach as follows:\n\nresult_list = list(map(lambda x: x**2, list))",
+    "most_similar_instructions": {
+      "What returns code in a ?": 0.5,
+      "What replaces the code in a path ?": 0.42857142857142855,
+      "What does the code find in [ a ?": 0.42857142857142855,
+      "What did the code give in a generated ?": 0.39999999999999997,
+      "What will this store in a context variable ?": 0.39999999999999997,
+      "What does the code get in a namespace ?": 0.39999999999999997,
+      "Why is this kept in a separate module ?": 0.39999999999999997,
+      "What does the code update in a datacenter ?": 0.39999999999999997,
+      "What does the code run in a transaction ?": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.10288548999108484
+  },
+  {
+    "instruction": "Describe what this code does",
+    "input": "def get item list index None if list is None raise Exception 'Listisnull'if index < 0 raise Exception 'NegativeIndexNotAllowed'if index > = len list raise Exception 'IndexOutOfBounds'item list[index]return item",
+    "output": "This code takes in a list and an index and returns the item at the given index. If the index is negative or greater than or equal to the length of the list, then an exception is raised.",
+    "most_similar_instructions": {
+      "What is running this code ?": 0.6,
+      "What does this code allow ?": 0.6,
+      "What returns code ?": 0.5,
+      "What shared code ?": 0.5,
+      "What does nothing ?": 0.5,
+      "What is the purpose of this code ?": 0.5
+    },
+    "avg_similarity_score": 0.22674160485659917
+  },
+  {
+    "instruction": "Rewrite this code in a more concise manner",
+    "input": "def calculate sum list None if list is None return None sum 0 for item in list sum sum + itemreturn sum",
+    "output": "The code can be rewritten using the built-in sum() function as follows:\n\nsum = sum(list)",
+    "most_similar_instructions": {
+      "Rewrite this code in a functional approach": 0.6666666666666666,
+      "What does the code start in a consistent manner ?": 0.47058823529411764,
+      "What returns code in a ?": 0.4615384615384615,
+      "What does the code find in a very loose manner ?": 0.4444444444444445,
+      "What does the code find in a cross platform manner ?": 0.4444444444444445,
+      "What does the code find in [ a ?": 0.39999999999999997,
+      "What replaces the code in a path ?": 0.39999999999999997,
+      "What does the code run in a subprocess ?": 0.375
+    },
+    "avg_similarity_score": 0.09620011015486975
+  },
+  {
+    "instruction": "How can the following code be optimized ?",
+    "input": "def find factors number None factors list None if number is None return None i 2 while i < number if number % i == 0 factors list append i number / i i + +return factors list",
+    "output": "The code can be optimized by replacing the while loop with a more efficient algorithm such as the Pollard's Rho algorithm, which has a time complexity of O(log n) instead of O(n).",
+    "most_similar_instructions": {
+      "How can the value be sent ?": 0.6153846153846153,
+      "How can the threshold be set ?": 0.6153846153846153,
+      "How can the argument be serialized ?": 0.6153846153846153,
+      "How can the reports be saved ?": 0.6153846153846153,
+      "How can this code be improved ?": 0.6153846153846153,
+      "How can the code logging in security_monkey be configured ?": 0.588235294117647,
+      "How can the generic script be customised ?": 0.5714285714285714,
+      "How can the forumsread tracker be saved ?": 0.5714285714285714
+    },
+    "avg_similarity_score": 0.17309490741761618
+  },
+  {
+    "instruction": "What is the output of the following code ?",
+    "input": "def compare numbers a None b None if a is None raise Exception 'Aisnotspecified'if b is None raise Exception 'Bisnotspecified'if a > b : response 'A is greater than B'elif a < b : response 'B is greater than A'else : response 'A and B are equal'return response",
+    "output": "The output of the code will be a string, either \u201cA is greater than B\u201d or \u201cB is greater than A\u201d or \u201cA and B are equal\u201d, depending on the comparison of the given numbers.",
+    "most_similar_instructions": {
+      "What is the purpose of this code ?": 0.6666666666666666,
+      "What is at the end of the file ?": 0.625,
+      "What is the path of the file used ?": 0.625,
+      "What is the code evaluate ?": 0.6153846153846154,
+      "What is the code determine ?": 0.6153846153846154,
+      "What is the code used ?": 0.6153846153846154,
+      "What is the code ensure ?": 0.6153846153846154,
+      "What is the code find ?": 0.6153846153846154,
+      "What is the code takes ?": 0.6153846153846154
+    },
+    "avg_similarity_score": 0.2578190933886393
+  },
+  {
+    "instruction": "Describe the data structure used by this code",
+    "input": "def find smallest element arr None if arr is None return None min_element arr[0] for item in arr if item < min_element min_element = item return min_element",
+    "output": "The code utilizes a list data structure to store the given array of elements. The code then iterates through the list to search for the smallest element and returns it at the end.",
+    "most_similar_instructions": {
+      "Describe what this code does": 0.4615384615384615,
+      "How do the continuous volume data code ?": 0.39999999999999997,
+      "What is the purpose of this code ?": 0.39999999999999997,
+      "How does the code load a data structure ?": 0.375,
+      "For what purpose do the data return code ?": 0.375,
+      "What floats free on the gpu used by theano ?": 0.35294117647058826,
+      "Where is the gce instance running this code running ?": 0.35294117647058826,
+      "What does the code used by erf / erfc track ?": 0.35294117647058826,
+      "Where do all the & by & amp replace the code ?": 0.35294117647058826
+    },
+    "avg_similarity_score": 0.1464927815972024
+  },
+  {
+    "instruction": "What accesses a object's property ?",
+    "input": "def get item item self item",
+    "output": "the function \"get_item\" will access the property of the given object.",
+    "most_similar_instructions": {
+      "What do a json object ?": 0.5454545454545454,
+      "What returns a datetimemanager object ?": 0.5454545454545454,
+      "What do a object contain ?": 0.5454545454545454,
+      "What takes a user object ?": 0.5454545454545454,
+      "What returns a tracecontext object ?": 0.5454545454545454,
+      "What creates a timer object ?": 0.5454545454545454,
+      "What runs on a single object ?": 0.5,
+      "What will a son object query ?": 0.5,
+      "What converts to a cloudblockstoragesnapshot object ?": 0.5,
+      "What do a logger object create ?": 0.5
+    },
+    "avg_similarity_score": 0.14929497959182123
+  },
+  {
+    "instruction": "Rewrite this code with comprehensions ?",
+    "input": "lst= \nnew_lst =\nfor item in lst:\n   new_lst.append(item*2)",
+    "output": "new_lst = [item*2 for item in lst]",
+    "most_similar_instructions": {
+      "Rewrite this code in a functional approach": 0.5,
+      "Rewrite this code in a more concise manner": 0.4615384615384615,
+      "What is running this code ?": 0.4000000000000001,
+      "Describe what this code does": 0.4000000000000001,
+      "What does this code allow ?": 0.4000000000000001,
+      "Where is this code being run ?": 0.3636363636363636,
+      "How does this code handle exceptions ?": 0.3636363636363636,
+      "How can this code be improved ?": 0.3636363636363636
+    },
+    "avg_similarity_score": 0.08387034856370902
+  },
+  {
+    "instruction": "Convert this method to use args and kwargs ?",
+    "input": "def my_func(a, b, c, d): \n   return a + b + c + d",
+    "output": "def my_func(*args, **kwargs): \n   return sum(args) + sum(kwargs.values())",
+    "most_similar_instructions": {
+      "What do this method use ?": 0.4615384615384615,
+      "What do this factory method use ?": 0.42857142857142855,
+      "Why be args and kwargs be empty ?": 0.39999999999999997,
+      "What do this method convert to bytes ?": 0.39999999999999997,
+      "What does this method use the given ports_client ?": 0.35294117647058826,
+      "What does this method convert to a json dictionary ?": 0.35294117647058826,
+      "How does this method try to decode header data and convert to pythonic unicode strings ?": 0.3478260869565218
+    },
+    "avg_similarity_score": 0.02414044219918156
+  },
+  {
+    "instruction": "What will this use as the message format ?",
+    "input": "@hook def getmail message format def _get mail message format if message format is None message format env DATA_MESSAGE_FORMAT return message format",
+    "output": "This will use the value set in the \"DATA_MESSAGE_FORMAT\" environment variable as the message format.",
+    "most_similar_instructions": {
+      "What will this use the test / train record arrays ?": 0.5882352941176471,
+      "What do i use as the 0 ?": 0.5333333333333333,
+      "What will this store in the context ?": 0.5333333333333333,
+      "What will this remove from the hosts ?": 0.5333333333333333
+    },
+    "avg_similarity_score": 0.19096468238885872
+  },
+  {
+    "instruction": "How can this be modified to be more concise ?",
+    "input": "if x is not None and y is not None: \n   z = x + y\nelif x is not None:\n   z = x\nelif y is not None:\n   z = y\nelse:\n   z = None",
+    "output": "This can be modified to be more concise as follows:\n\nz = x + y if x and y else x or y or None",
+    "most_similar_instructions": {
+      "How can this code be improved ?": 0.5333333333333333,
+      "When can this decorator be used to add more rules ?": 0.5263157894736842,
+      "How can this function be called when ?": 0.5,
+      "How can preferred_plugins be modified contexts ?": 0.5,
+      "How can the code be modified to receive a list as input?": 0.4761904761904762,
+      "How can we be converted to a datetimelike ?": 0.47058823529411764,
+      "What can this be ?": 0.46153846153846156,
+      "How can a message be sent to a pentity ?": 0.4444444444444444,
+      "How can this trigger be configured in the ui ?": 0.4444444444444444,
+      "How can the input be converted to a float ?": 0.4444444444444444
+    },
+    "avg_similarity_score": 0.03506205921574846
+  },
+  {
+    "instruction": "What will this code do ?",
+    "input": "def myfunc x y z x z y z",
+    "output": "This code will swap the values of the variables 'x' and 'y'.",
+    "most_similar_instructions": {
+      "What will this mark ?": 0.6666666666666665,
+      "What will this store ?": 0.6666666666666665,
+      "What will this return ?": 0.6666666666666665,
+      "What will this import ?": 0.6666666666666665,
+      "What will this get ?": 0.6666666666666665,
+      "What will this try ?": 0.6666666666666665
+    },
+    "avg_similarity_score": 0.24282655264306888
+  },
+  {
+    "instruction": "How can this class be made more efficient ?",
+    "input": "class MyClass def init self var\n   self var = var\n\ndef square self\n   return self var * self var",
+    "output": "This class can be made more efficient by replacing the square method with a property, so the square value will not have to be recalculated every time:\n\nclass MyClass:\n   def __init__(self, var):\n      self.var = var \n   \n   @property\n   def square(self):\n      return self.var * self.var",
+    "most_similar_instructions": {
+      "How can this be modified to be more concise ?": 0.5882352941176471,
+      "How can a class be used ?": 0.5714285714285715,
+      "How can this code be improved ?": 0.5714285714285715,
+      "How can this function be called when ?": 0.5333333333333333,
+      "What can this be ?": 0.5,
+      "How can this trigger be configured in the ui ?": 0.47058823529411764,
+      "What can this be used ?": 0.4615384615384615,
+      "How can flow be started ?": 0.4615384615384615,
+      "How can it be quoted ?": 0.4615384615384615
+    },
+    "avg_similarity_score": 0.02659529860795482
+  },
+  {
+    "instruction": "How can this be adapted to handle exceptions ?",
+    "input": "def handle response response \n   if response.status_code 200: \n      return response.text\n   else: \n      return None",
+    "output": "This can be adapted to handle exceptions by adding a try-except block:\n\ndef handle_response(response): \n   try:\n      if response.status_code == 200: \n         return response.text\n      else: \n         return None \n   except Exception as e: \n      return None",
+    "most_similar_instructions": {
+      "How can this be modified to be more concise ?": 0.5882352941176471,
+      "How does this code handle exceptions ?": 0.5714285714285715,
+      "How can this code be improved ?": 0.5714285714285715,
+      "How can this function be called when ?": 0.5333333333333333,
+      "What can this be ?": 0.5,
+      "How can we be converted to a datetimelike ?": 0.5,
+      "How can this class be made more efficient ?": 0.5,
+      "How can equations be converted to a polynomial equation ?": 0.47058823529411764,
+      "How can this trigger be configured in the ui ?": 0.47058823529411764,
+      "How can a message be sent to a pentity ?": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.03710389933629293
+  },
+  {
+    "instruction": "How can this loop be optimized ?",
+    "input": "for i in range 0 100\n   do something",
+    "output": "This loop can be optimized by using the list comprehension and break statement:\n\n[do something for i in range(0, 100) if i == 100 break]",
+    "most_similar_instructions": {
+      "How can this code be improved ?": 0.6666666666666666,
+      "How can this function be called when ?": 0.6153846153846153,
+      "How can the following code be optimized ?": 0.6153846153846153,
+      "What can this be ?": 0.6,
+      "How can this be adapted to handle exceptions ?": 0.5714285714285715,
+      "How can this class be made more efficient ?": 0.5714285714285715,
+      "How can it be written ?": 0.5454545454545454,
+      "How can densedesignmatrixpytables be constructed ?": 0.5454545454545454,
+      "How can it be embedded ?": 0.5454545454545454,
+      "How can flow be started ?": 0.5454545454545454
+    },
+    "avg_similarity_score": 0.029700099444297967
+  },
+  {
+    "instruction": "How does the loop send data ?",
+    "input": "for el in seq if condition res append el post request body json jdata",
+    "output": "The loop sends data by appending each element to a list, followed by a POST request using the json library to send the body data.",
+    "most_similar_instructions": {
+      "How does the code get loop ?": 0.6666666666666666,
+      "How does the code send a notification ?": 0.6153846153846153,
+      "How does the code send an email ?": 0.6153846153846153,
+      "How does the code get the loop ?": 0.6153846153846153,
+      "How does the code send a message ?": 0.6153846153846153,
+      "How does the code encrypt the data ?": 0.6153846153846153,
+      "How does the code look resource_data ?": 0.6153846153846153,
+      "How does the code send the draft ?": 0.6153846153846153,
+      "How does the code get data files ?": 0.6153846153846153,
+      "How does the code fit a data ?": 0.6153846153846153
+    },
+    "avg_similarity_score": 0.19407181271947657
+  },
+  {
+    "instruction": "What happens when the user clicks the button ?",
+    "input": "def handle click event event target valueFor click triggers click func",
+    "output": "When the user clicks the button, a function called 'clickFunc' is executed with the target element as parameter.",
+    "most_similar_instructions": {
+      "For what purpose did the user click the button when ?": 0.5555555555555556,
+      "When did the user use the url ?": 0.5333333333333333,
+      "When do the user enter the parameters ?": 0.5333333333333333,
+      "What do the user modify the permissions ?": 0.5333333333333333,
+      "What runs the user ?": 0.5,
+      "What warns the user ?": 0.5,
+      "What asks the user ?": 0.5,
+      "What sets the user information for the requestor ?": 0.5
+    },
+    "avg_similarity_score": 0.2012484697962429
+  },
+  {
+    "instruction": "How is the result checked ?",
+    "input": "def is pos expected res if res > 0 return True else return False",
+    "output": "The result is checked by comparing it to a value and then returning boolean values: True if the result is greater than 0 and False if the result is equal to or less than 0.",
+    "most_similar_instructions": {
+      "How is the program run ?": 0.6,
+      "How is the text cleared ?": 0.6,
+      "How is mail content checked ?": 0.6,
+      "How is the parent set ?": 0.6,
+      "How is the distance returned ?": 0.6,
+      "How is the cover closed ?": 0.6,
+      "How be the type checked ?": 0.6,
+      "How is the code traversed ?": 0.6,
+      "How is the value modified?": 0.6,
+      "How is the lock locked ?": 0.6
+    },
+    "avg_similarity_score": 0.13145243655149827
+  },
+  {
+    "instruction": "What is being processed by the code ?",
+    "input": "jsonData json load inputFile",
+    "output": "The code is processing a JSON file by using the json library to load the contents of the input file.",
+    "most_similar_instructions": {
+      "What is the code evaluate ?": 0.6666666666666666,
+      "What is the code guess ?": 0.6666666666666666,
+      "What is the code find ?": 0.6666666666666666,
+      "What is the code ensure ?": 0.6666666666666666,
+      "What is the code takes ?": 0.6666666666666666,
+      "What is the code ensures ?": 0.6666666666666666,
+      "What is the code used ?": 0.6666666666666666,
+      "What is the code check ?": 0.6666666666666666
+    },
+    "avg_similarity_score": 0.27025858487446613
+  },
+  {
+    "instruction": "What data is being parsed ?",
+    "input": "def parseData data for line in data return line split",
+    "output": "The data being parsed is a list of strings, and it is split into individual elements by iterating through the list and returning each line split into individual elements.",
+    "most_similar_instructions": {
+      "What is being logged ?": 0.6666666666666665,
+      "What is being accomplished here ?": 0.6,
+      "What is being run in devappserver2 ?": 0.5454545454545454,
+      "What is containing the parsed structure ?": 0.5454545454545454,
+      "What is being processed by the code ?": 0.5,
+      "What put data ?": 0.5,
+      "What is what ?": 0.5,
+      "What is being ran the api instance ?": 0.5,
+      "What is exists ?": 0.5
+    },
+    "avg_similarity_score": 0.14268946144096836
+  },
+  {
+    "instruction": "How does this modify the data ?",
+    "input": "def flatten tree for node in tree if type node is list for child in node flatten child else tree append node return tree",
+    "output": "flattens the tree structure into a single dimensional list containing the data stored in all the nodes.",
+    "most_similar_instructions": {
+      "How does this decorator modify the decorated functions docstring ?": 0.6666666666666667,
+      "How does the loop send data ?": 0.6666666666666666,
+      "How does the code modify the solution ?": 0.6153846153846153,
+      "How does the code get data files ?": 0.6153846153846153,
+      "How does the code look resource_data ?": 0.6153846153846153,
+      "How does the code encrypt the data ?": 0.6153846153846153,
+      "How does this function compute the length ?": 0.6153846153846153,
+      "How does this function parse the string ?": 0.6153846153846153,
+      "How does the code fit a data ?": 0.6153846153846153
+    },
+    "avg_similarity_score": 0.19689304584936992
+  },
+  {
+    "instruction": "What type of data is the code manipulating ?",
+    "input": "def change_word_order sentence words if type sentence is str words sentence split sentence reversed sentence words join return sentence",
+    "output": "string data",
+    "most_similar_instructions": {
+      "What is the code check ?": 0.6153846153846154,
+      "What is the code guess ?": 0.6153846153846154,
+      "What is the code find ?": 0.6153846153846154,
+      "What is the code determine ?": 0.6153846153846154,
+      "What is the code ensures ?": 0.6153846153846154,
+      "What is the code ensure ?": 0.6153846153846154,
+      "What is the code decorate ?": 0.6153846153846154,
+      "What is the code takes ?": 0.6153846153846154,
+      "What is the code evaluate ?": 0.6153846153846154
+    },
+    "avg_similarity_score": 0.2537230440691109
+  },
+  {
+    "instruction": "What's being computed by this code ?",
+    "input": "def calculate_factorial number factorial 1 if type number is int for i in range number 1 factorial factorial i return factorial",
+    "output": "the factorial of a given number",
+    "most_similar_instructions": {
+      "What is being processed by the code ?": 0.5714285714285714,
+      "Describe what this code does": 0.5,
+      "What is running this code ?": 0.5,
+      "What will this code do ?": 0.5,
+      "What does this code allow ?": 0.5,
+      "What do worker(s stop by name ?": 0.42857142857142855,
+      "What did by conf use the code ?": 0.42857142857142855,
+      "What is the purpose of this code ?": 0.42857142857142855,
+      "What _s values ?": 0.4
+    },
+    "avg_similarity_score": 0.18060317338742865
+  },
+  {
+    "instruction": "What type of data does this code extract ?",
+    "input": "def extract_unique_values list_of_dicts values [] if type list_of_dicts is list for dicts in list_of_dicts if dicts not in values values append dicts return values",
+    "output": "unique values from a list of dictionaries",
+    "most_similar_instructions": {
+      "What type of data is the code manipulating ?": 0.625,
+      "What does the code extract ?": 0.6153846153846154,
+      "What does this code allow ?": 0.6153846153846154
+    },
+    "avg_similarity_score": 0.23950850357328055
+  },
+  {
+    "instruction": "What is a use case for the code block ?",
+    "input": "def flatten item iterable if isinstance item Iterable else iterable append item return iterable flatten item for item in item",
+    "output": "unpacking a nested list into a single flat list",
+    "most_similar_instructions": {
+      "What is a case ?": 0.6153846153846153,
+      "What is the code ensures ?": 0.5714285714285714,
+      "What is the code decorate ?": 0.5714285714285714,
+      "What is the code takes ?": 0.5714285714285714,
+      "What is the code ensure ?": 0.5714285714285714,
+      "What does the code block ?": 0.5714285714285714,
+      "What is the code guess ?": 0.5714285714285714,
+      "What is the code evaluate ?": 0.5714285714285714,
+      "What is the code check ?": 0.5714285714285714
+    },
+    "avg_similarity_score": 0.25264159368756284
+  },
+  {
+    "instruction": "What is being done with the data ?",
+    "input": "def smoothen disp void_freq void_kernel disp void_kernel window void_kernel norm void_kernel return void_freq void_kernel run disp window norm",
+    "output": "smoothing of the data points disp with a Gaussian kernel with parameters void_freq, void_kernel, window and norm",
+    "most_similar_instructions": {
+      "What is containing the training data ?": 0.6153846153846153,
+      "What is describing the data description ?": 0.6153846153846153,
+      "What is done on the r backend ?": 0.5714285714285714,
+      "What is done in the _ boost method ?": 0.5714285714285714,
+      "What is being processed by the code ?": 0.5714285714285714,
+      "What is being ran the api instance ?": 0.5714285714285714,
+      "What is reporting data ?": 0.5454545454545454,
+      "What is producing data ?": 0.5454545454545454
+    },
+    "avg_similarity_score": 0.20755983784005583
+  },
+  {
+    "instruction": "How will this block of code complete ?",
+    "input": "def calc outerInput start partial i val stride beginning return val if nIters beginning else calc outerInput start partial i val + stride i + 1",
+    "output": "recursively calculates a value based on the values of `start` and `partial` and an increment based on the current iteration value `i` and the `stride` until a given number of iterations are done.",
+    "most_similar_instructions": {
+      "How will this code change the list ?": 0.5714285714285714,
+      "How will this function return ?": 0.5,
+      "What will this code do ?": 0.5,
+      "How will a page redirect this ?": 0.4615384615384615,
+      "How can this code be improved ?": 0.4615384615384615,
+      "How does this code handle exceptions ?": 0.4615384615384615,
+      "How will this store the language information dictionary for the given language code ?": 0.4
+    },
+    "avg_similarity_score": 0.0926862863670865
+  },
+  {
+    "instruction": "What kind of processing does this code do ?",
+    "input": "def transform text relation prepare_features return np array [prepare_features text relation for text in transformation ]",
+    "output": "preprocessing and transforming of a text according to a given relation",
+    "most_similar_instructions": {
+      "What type of data does this code extract ?": 0.625,
+      "What does this test do ?": 0.6153846153846154,
+      "What does the code do ?": 0.6153846153846154,
+      "What does this function do ?": 0.6153846153846154
+    },
+    "avg_similarity_score": 0.26022961270886774
+  },
+  {
+    "instruction": "How does the function delete an item from a list?",
+    "input": "def delete item from list item to delete list [] if len list 0 for item in list if item == item to delete list remove item return list",
+    "output": "by looping through each element in the list and comparing it to the item to be deleted, and if they are the same, the list element is removed.",
+    "most_similar_instructions": {
+      "Does the code delete an item or items from a queue ?": 0.6666666666666666,
+      "How does the code join a list ?": 0.588235294117647,
+      "How does the code delete a file ?": 0.588235294117647,
+      "How does the code create an item ?": 0.588235294117647,
+      "How does the code delete a tile ?": 0.588235294117647,
+      "How does the code delete a user ?": 0.588235294117647,
+      "How does the code select an item ?": 0.588235294117647
+    },
+    "avg_similarity_score": 0.1777720711265064
+  },
+  {
+    "instruction": "How is the item sorted after its added to the list ?",
+    "input": "def sort Item in List item list [] list append item return sorted list",
+    "output": "by using the built-in 'sorted' function.",
+    "most_similar_instructions": {
+      "How is the vertex connected to one of the target vertices ?": 0.45454545454545453,
+      "How does the code add a handler to the internal cleanup list ?": 0.43478260869565216,
+      "How are the sections returned to return the list of sections for ?": 0.43478260869565216,
+      "Where is noise added to the score function ?": 0.4210526315789474,
+      "How does the code render the comment list ?": 0.4210526315789474,
+      "How is the supplied module related to encodings ?": 0.4210526315789474,
+      "How did them add to the stmts_list ?": 0.4210526315789474,
+      "How are the sections returned to return the list of sections for the given ?": 0.4,
+      "What does the code add to the list table ?": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.10696040350440777
+  },
+  {
+    "instruction": "Can the function detect when an item is a duplicate ?",
+    "input": "def hasDuplicates list [] seen before [] for item in list if item in seen before return True else seen before append item return False",
+    "output": "Yes, the function can detect when an item is a duplicate by checking if it has already been seen in the list it is going through.",
+    "most_similar_instructions": {
+      "How does the function delete an item from a list?": 0.5,
+      "What does the code emulate when op is a function ?": 0.4000000000000001,
+      "When is a site saved ?": 0.4,
+      "When is a upid given ?": 0.4,
+      "When is a key present ?": 0.4,
+      "When is a pipeline running ?": 0.4,
+      "When is a function called ?": 0.4,
+      "When is a transaction active ?": 0.4,
+      "When is a process running ?": 0.4
+    },
+    "avg_similarity_score": 0.10773964885735834
+  },
+  {
+    "instruction": "How can a value be changed within a list ?",
+    "input": "def update List list [] index value for i in range len list list[i] value return list",
+    "output": "by accessing the specified index in the list and then setting the value at that index to the desired value.",
+    "most_similar_instructions": {
+      "How can a message be sent to a pentity ?": 0.5555555555555556,
+      "How can a number be expressed ?": 0.5333333333333333,
+      "How can the value be sent ?": 0.5333333333333333,
+      "Where can a config be changed ?": 0.5333333333333333,
+      "How can a pkg be installed ?": 0.5333333333333333,
+      "How can a class be used ?": 0.5333333333333333,
+      "How can by a following node be modified a file ?": 0.5263157894736842,
+      "How can a socket be not created ?": 0.5,
+      "How can a size - width value be xored to produce data ?": 0.5
+    },
+    "avg_similarity_score": 0.04808391032961016
+  },
+  {
+    "instruction": "What will the range of values be in the current list ?",
+    "input": "def get Range list [] min Value max Value min Value max Value float infinity float negative infinity for item in list if item < min Value min Value item if item > max Value max Value item return min Value max Value",
+    "output": "the smallest and largest values in the list.",
+    "most_similar_instructions": {
+      "What separates the lower half from the higher half of values in the list ?": 0.56,
+      "What does the value separate from the higher half of values in the list ?": 0.56,
+      "What exists in the current process list ?": 0.5555555555555556,
+      "What will be stored in the session ?": 0.5555555555555556,
+      "What replaces the code in the_list ?": 0.5555555555555556,
+      "What separates the lower half in the list ?": 0.5263157894736842,
+      "What will change the state of the unit ?": 0.5263157894736842,
+      "What exists in the list ?": 0.5000000000000001,
+      "What passed in the list ?": 0.5000000000000001,
+      "What be in the database ?": 0.5000000000000001
+    },
+    "avg_similarity_score": 0.1767761273147867
+  },
+  {
+    "instruction": "How can a value be retrieved from a dictionary ?",
+    "input": "def get value dictionary key if key in dictionary return dictionary[key] else return None",
+    "output": "by using the key to access the value stored with it in the dictionary.",
+    "most_similar_instructions": {
+      "How can a value be changed within a list ?": 0.6666666666666666,
+      "How can a message be sent to a pentity ?": 0.5555555555555556,
+      "How can a class be used ?": 0.5333333333333333,
+      "How can a pkg be installed ?": 0.5333333333333333,
+      "How can a number be expressed ?": 0.5333333333333333,
+      "How can skipped steps be retrieved ?": 0.5333333333333333,
+      "How can the value be sent ?": 0.5333333333333333,
+      "How can by a following node be modified a file ?": 0.5263157894736842,
+      "How can a size - width value be xored to produce data ?": 0.5
+    },
+    "avg_similarity_score": 0.05154330768992992
+  },
+  {
+    "instruction": "What are the implications of changing a value in a dictionary ?",
+    "input": "def change value in dictionary key new value if key in dictionary dictionary[key] new value else return None",
+    "output": "the new value will replace the existing one for the given key in the dictionary, affecting any further operations that rely on the value for that key.",
+    "most_similar_instructions": {
+      "What is the device identifier value a dictionary ?": 0.5263157894736842,
+      "What are mapped a dictionary ?": 0.5000000000000001,
+      "What verifys in a dictionary ?": 0.5000000000000001,
+      "What represents the dependence of nodes in a graph ?": 0.5,
+      "What are the list of base classes providing the queried method a dictionary ?": 0.4999999999999999,
+      "What are non - zero in the flattened version of a ?": 0.47619047619047616,
+      "What returns the lines of a file in reverse order ?": 0.47619047619047616,
+      "What is a rectangle a dictionary ?": 0.4705882352941177,
+      "What are allowed in a string ?": 0.4705882352941177,
+      "What is the key a dictionary ?": 0.4705882352941177
+    },
+    "avg_similarity_score": 0.18307556856907495
+  },
+  {
+    "instruction": "What are the advantages of using a dictionary over a list ?",
+    "input": "def advantagesDictionary list [] dictionary {} for element in list dictionary[element] 0 return dictionary",
+    "output": "A dictionary makes it easier to retrieve a value associated with a specific key than it would be to find the same value in a list containing multiple elements. A dictionary also uses less memory and is faster when searching for a value based on a key.",
+    "most_similar_instructions": {
+      "What are the implications of changing a value in a dictionary ?": 0.5454545454545454,
+      "What are mapped a dictionary ?": 0.5000000000000001,
+      "What does the code create using a configuration dictionary ?": 0.5,
+      "What does the code get out of a list ?": 0.5,
+      "What are the list of base classes providing the queried method a dictionary ?": 0.4999999999999999,
+      "What are non - zero in the flattened version of a ?": 0.47619047619047616,
+      "What is using over a field ?": 0.4705882352941177,
+      "What are the crypto maps using ?": 0.4705882352941177,
+      "What is the key a dictionary ?": 0.4705882352941177
+    },
+    "avg_similarity_score": 0.17885763316014827
+  },
+  {
+    "instruction": "What is the added benefit of the current if statement ?",
+    "input": "def benefitIf x y if x > y return True else return False",
+    "output": "The if statement adds a layer of comparison to check if x is greater than y, and then returns an appropriate boolean based on the comparison result.",
+    "most_similar_instructions": {
+      "What is returning the content hierarchy of the current thread ?": 0.6,
+      "What is at the end of the file ?": 0.5555555555555556,
+      "What is the output of the following code ?": 0.5555555555555556,
+      "What is the path of the file used ?": 0.5555555555555556,
+      "What is taking at the center of the bin ?": 0.5263157894736842,
+      "What is containing the state of the warnings module ?": 0.5263157894736842,
+      "What do the css of the current element define ?": 0.5263157894736842,
+      "What is using the given callable for the current desktop ?": 0.5
+    },
+    "avg_similarity_score": 0.18217644581220738
+  },
+  {
+    "instruction": "How can the function count how many unique elements are in the list ?",
+    "input": "def countUnique list [] seen before [] for item in list if item not in seen before seen before append item return len seen before",
+    "output": "by looping through each element in the list and adding it to the \"seen before\" list if it has not been seen before, and then returning the length of the \"seen before\" list.",
+    "most_similar_instructions": {
+      "What are returned in the list ?": 0.42105263157894735,
+      "How do all the views in the passed urlpatterns list decorate ?": 0.41666666666666663,
+      "How can we modify the code to get the items in the list in reverse order?": 0.41379310344827586,
+      "How do all occurrences of find replace the code in the_list ?": 0.4,
+      "What replaces the code in the_list ?": 0.4,
+      "Can the code be modified to print the smallest number in the list?": 0.38461538461538464,
+      "How can we make the output of the function always be in lowercase?": 0.38461538461538464,
+      "How will just the questions in the list passed in the list come ?": 0.38461538461538464,
+      "What separates the lower half in the list ?": 0.380952380952381,
+      "What are not specified in the source list ?": 0.380952380952381
+    },
+    "avg_similarity_score": 0.09338393279027862
+  },
+  {
+    "instruction": "How can a range of values be specified in the list ?",
+    "input": "def specifyRange list start index end index for i in range start index end index list[i] start index + i return list",
+    "output": "by setting the value at each index in the given range to the value at the starting index plus the current index in the loop.",
+    "most_similar_instructions": {
+      "What will the range of values be in the current list ?": 0.6363636363636364,
+      "How can a value be changed within a list ?": 0.5,
+      "How can this trigger be configured in the ui ?": 0.5,
+      "How does a copy of the given list return ?": 0.5,
+      "How can a pkg be installed ?": 0.4705882352941177,
+      "How can a number be expressed ?": 0.4705882352941177,
+      "How can matrix dimensions be specified ?": 0.4705882352941177,
+      "How can a class be used ?": 0.4705882352941177,
+      "How do a list of files in the provided directory retrieve ?": 0.45454545454545453,
+      "How can a file upload be updated into the post dictionary ?": 0.45454545454545453
+    },
+    "avg_similarity_score": 0.10850750594839169
+  },
+  {
+    "instruction": "What will the list contain if it is reversed ?",
+    "input": "def reverseList list [] reversedList [] for item in reversed list reversedList append item return reversedList",
+    "output": "the same elements as the original list, but in the reverse order.",
+    "most_similar_instructions": {
+      "What will the name is raise if it is not ?": 0.631578947368421,
+      "What do the list contain ?": 0.5714285714285714,
+      "What does the code add if it is carvable ?": 0.5555555555555556,
+      "What does the code remove if it is outdated ?": 0.5555555555555556,
+      "What will is raise a configurationerror if it is not ?": 0.5263157894736842,
+      "What is the code make if it is nt already ?": 0.5263157894736842,
+      "What does the code generate if it is not present ?": 0.5263157894736842,
+      "What does the code return if it is a decimal ?": 0.5263157894736842
+    },
+    "avg_similarity_score": 0.18464115937620312
+  },
+  {
+    "instruction": "How do we create an instance of a Dataset class ?",
+    "input": "class Dataset data path def __init__ self data path self df pd read csv data path self count 0 def __iter__ self return self def __next__ self if self count lt self df size self data df iloc self count 1 self count self count 1 return self data df iloc self count 1 else raise StopIteration",
+    "output": "By instantiating the Dataset class with the data path as an argument, e.g., dataset = Dataset(data_path).",
+    "most_similar_instructions": {
+      "How do an instance of a show return ?": 0.6666666666666665,
+      "How do an instance of a release return ?": 0.6666666666666665,
+      "What create an instance of the fileinput class ?": 0.5555555555555556,
+      "How do an instance of an episode return ?": 0.5555555555555556,
+      "How do a class import ?": 0.5333333333333333,
+      "How do a : class populate ?": 0.5333333333333333,
+      "How do a class instantiate ?": 0.5333333333333333,
+      "How do a titled dataset create ?": 0.5,
+      "How do an instance of the appropriate spatial pooler create ?": 0.5
+    },
+    "avg_similarity_score": 0.07261637181676471
+  },
+  {
+    "instruction": "Modify the code to use a while loop instead?",
+    "input": "for i in range 0 3 print i",
+    "output": "i = 0\nwhile i < 3:\n  print(i)\n  i += 1",
+    "most_similar_instructions": {
+      "What did the code set to use instead of _ _ pycache _ _ ?": 0.5263157894736842,
+      "What does the code use a decorator ?": 0.5,
+      "How does the code use a device ?": 0.5,
+      "What does the code convert to xml for use in a build ?": 0.4761904761904762,
+      "Can we modify the code to convert a string to a list?": 0.4761904761904762,
+      "What does the code convert to a rational ?": 0.47058823529411764,
+      "What did the code cast to a python ?": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.1640361832450136
+  },
+  {
+    "instruction": "Can you create a function to return the lowest value in a list ?",
+    "input": "def find min lst min el for el in lst if el lt min el min el return min",
+    "output": "Yes, the function can return the lowest value in the list.",
+    "most_similar_instructions": {
+      "How can a value be changed within a list ?": 0.4545454545454546,
+      "What can a call to recv ( ) return ?": 0.4,
+      "Can we modify the code to convert a string to a list?": 0.4,
+      "When does a function return a deferred ?": 0.4,
+      "May a function return a l{deferred } ?": 0.4,
+      "How does a function return a geometry ?": 0.4,
+      "Can the code be modified to print the smallest number in the list?": 0.38461538461538464,
+      "What does a template render to the python interpreter in a similar format ?": 0.38461538461538464,
+      "What renders a stack trace to the python interpreter in a similar format ?": 0.38461538461538464
+    },
+    "avg_similarity_score": 0.0991328740007995
+  },
+  {
+    "instruction": "Can you modify the code to use a list comprehension ?",
+    "input": "mylist = []\nfor x in range 5 10 mylist append x * x",
+    "output": "Yes, the code can be modified to use a list comprehension as follows: mylist = [x*x for x in range(5,10)].",
+    "most_similar_instructions": {
+      "Can we modify the code to convert a string to a list?": 0.6363636363636365,
+      "Modify the code to use a while loop instead?": 0.631578947368421,
+      "How can we modify the code to use an associated list as an input?": 0.5833333333333334,
+      "What does the code add to a list ?": 0.5555555555555556,
+      "What does the code convert to a list ?": 0.5555555555555556,
+      "How can the code be modified to receive a list as input?": 0.5454545454545454,
+      "What does the code convert to a python list ?": 0.5263157894736842,
+      "Does the code empty a list ?": 0.5,
+      "What does the code convert to a list of methods ?": 0.5
+    },
+    "avg_similarity_score": 0.1581702866445798
+  },
+  {
+    "instruction": "How can you retrieve the value of a given key from a dictionary ?",
+    "input": "mydict = {'A': 'Apple', 'B': 'Banana', 'C':'Cherry'}",
+    "output": "The value of a given key can be retrieved by using the dictionary's get() method, e.g. mydict.get('A') returns 'Apple'.",
+    "most_similar_instructions": {
+      "How can a value be retrieved from a dictionary ?": 0.5454545454545455,
+      "How do the \" value \" of a parameter get ?": 0.4761904761904762,
+      "How do the key in a dictionary lookup ?": 0.4761904761904762,
+      "How does the code retrieve the value of key from configuration if search_in_settings is true ?": 0.4666666666666667,
+      "How do the public key fingerprint of a given public ssh key return ?": 0.46153846153846156,
+      "How do the return value of a read check ?": 0.4545454545454546,
+      "How does the code remove key from the dictionary ?": 0.4545454545454546,
+      "How do the return value of a function cache ?": 0.4545454545454546,
+      "What uses to obtain the value of a registry key ?": 0.4347826086956522,
+      "How does the code read a motif from a handle ?": 0.4347826086956522
+    },
+    "avg_similarity_score": 0.10330088423110018
+  },
+  {
+    "instruction": "Can you modify the code to sum a given array of integers ?",
+    "input": "arr = [1, 2, 3]",
+    "output": "Yes, the code can be modified to sum a given array of integers by using the sum() function, e.g. sum(arr) returns 6.",
+    "most_similar_instructions": {
+      "Can you modify the code to use a list comprehension ?": 0.6363636363636365,
+      "What does the code convert to a rgb triple of integers ?": 0.5217391304347826,
+      "Can we modify the code to convert a string to a list?": 0.5,
+      "Modify the code to use a while loop instead?": 0.4761904761904762,
+      "What does the code add to a given object ?": 0.4761904761904762,
+      "What does the code extract to a given path ?": 0.4761904761904762,
+      "What does the code convert to a numpy array ?": 0.4761904761904762,
+      "How can we modify the code to check if the number is a prime?": 0.4615384615384615,
+      "What does the code truncate to a number of letters ?": 0.45454545454545453,
+      "What does the code apply to an array of points ?": 0.45454545454545453
+    },
+    "avg_similarity_score": 0.14472743286734682
+  },
+  {
+    "instruction": "Where do we initializes class variables ?",
+    "input": "class MyClass \n  def __init__(self):\n    self.num = 0",
+    "output": "Class variables are usually initialized in the __init__() method.",
+    "most_similar_instructions": {
+      "Where do we work ?": 0.6,
+      "Where do we patch it ?": 0.5454545454545454,
+      "Where do we have dups ?": 0.5454545454545454,
+      "Where do we skip braces ?": 0.5454545454545454,
+      "Where do specific variables override ?": 0.5454545454545454,
+      "Where do we pass every time ?": 0.5,
+      "Where do we want certain attributes ?": 0.5,
+      "Where do we manipulate vhds temporarily ?": 0.5,
+      "Where do we find an int ?": 0.5
+    },
+    "avg_similarity_score": 0.041413382112198166
+  },
+  {
+    "instruction": "How should we initialize ?",
+    "input": "def dataset __init__ name data self name data",
+    "output": "self .name = name \nself .data = data",
+    "most_similar_instructions": {
+      "How should we connect to sab ?": 0.6,
+      "What should we refresh ?": 0.5,
+      "How can we connect ?": 0.5,
+      "What should we hit ?": 0.5,
+      "What should we bypass ?": 0.5,
+      "How did attributes initialize ?": 0.5,
+      "What should we output ?": 0.5,
+      "How did generichttpchannelprotocol initialize ?": 0.5
+    },
+    "avg_similarity_score": 0.02754264115710019
+  },
+  {
+    "instruction": "What should the parameter do ?",
+    "input": "def apply threshold t _ fcn val self t _ fcn val",
+    "output": "apply threshold t _ fcn to each value in self",
+    "most_similar_instructions": {
+      "What do the do ?": 0.6666666666666665,
+      "What does the code do ?": 0.6,
+      "What supports the given parameter ?": 0.6
+    },
+    "avg_similarity_score": 0.2572838803833526
+  },
+  {
+    "instruction": "How will the function handle data ?",
+    "input": "def json dump dict dict mode dict get dict",
+    "output": "convert the nested dict into a json string",
+    "most_similar_instructions": {
+      "How will function decorator run the function ?": 0.6153846153846153,
+      "How will the wrapped function execute only actually ?": 0.5714285714285715,
+      "What will run the function ?": 0.5454545454545454,
+      "How will this function return ?": 0.5454545454545454,
+      "How did the data send ?": 0.5454545454545454,
+      "What will the function get ?": 0.5454545454545454,
+      "How do the data output ?": 0.5454545454545454,
+      "How is the user_data encoded ?": 0.5,
+      "How will it reach the compiler ?": 0.5,
+      "How does the loop send data ?": 0.5
+    },
+    "avg_similarity_score": 0.11963158100760976
+  },
+  {
+    "instruction": "Where should we store data ?",
+    "input": "def store pop dict dict key dict item dict value",
+    "output": "store the key-value pair into the dict",
+    "most_similar_instructions": {
+      "Where can we store vhds temporarily ?": 0.5454545454545454,
+      "Where are we running ?": 0.4444444444444445,
+      "Where did data receive ?": 0.4444444444444445,
+      "What should we skip ?": 0.4444444444444445,
+      "Where do metadata store ?": 0.4444444444444445,
+      "What should we bypass ?": 0.4444444444444445,
+      "Where do it store ?": 0.4444444444444445,
+      "Where has data changed ?": 0.4444444444444445,
+      "Where did data generate ?": 0.4444444444444445
+    },
+    "avg_similarity_score": 0.016886195876496528
+  },
+  {
+    "instruction": "What should the function verifiy ?",
+    "input": "def is prime n number if n",
+    "output": "verify if the number is a prime number",
+    "most_similar_instructions": {
+      "What should the rowcol function hold the string ?": 0.6153846153846154,
+      "What should preserve the docstring ?": 0.6,
+      "What do the function accept ?": 0.6,
+      "What selects the function object ?": 0.6,
+      "What do the function do ?": 0.6,
+      "What does the function accept ?": 0.6,
+      "What does the function sort ?": 0.6,
+      "What do the function download ?": 0.6,
+      "What does the function remove ?": 0.6,
+      "What should the code remove ?": 0.6
+    },
+    "avg_similarity_score": 0.23645569316144677
+  },
+  {
+    "instruction": "How should we transform the data ?",
+    "input": "def transform data dataset class self dataset cam transposed",
+    "output": "transform the dataset by applying camera transpose",
+    "most_similar_instructions": {
+      "How should we initialize ?": 0.6,
+      "How did the data send ?": 0.5454545454545454,
+      "How do the data output ?": 0.5454545454545454,
+      "Where should we store data ?": 0.5454545454545454,
+      "How should the character be escaped ?": 0.5,
+      "How does this modify the data ?": 0.5,
+      "How did the code read data ?": 0.5,
+      "How does the loop send data ?": 0.5,
+      "How should the file be reviewed ?": 0.5
+    },
+    "avg_similarity_score": 0.1168143771569601
+  },
+  {
+    "instruction": "What should we look for ?",
+    "input": "def is square matrix np matrix shape",
+    "output": "check if the matrix is square",
+    "most_similar_instructions": {
+      "What should we refresh ?": 0.6666666666666665,
+      "What should we skip ?": 0.6666666666666665,
+      "What should we consider ?": 0.6666666666666665,
+      "What should we bypass ?": 0.6666666666666665,
+      "What should we recreate ?": 0.6666666666666665,
+      "What did we look ?": 0.6666666666666665,
+      "What should we hit ?": 0.6666666666666665
+    },
+    "avg_similarity_score": 0.13832804383115066
+  },
+  {
+    "instruction": "What should be the output ?",
+    "input": "def qvalue binom p q alpha q 1 q 2",
+    "output": "calculate the Q-value of the given parameters",
+    "most_similar_instructions": {
+      "What should the command output contain then ?": 0.6666666666666666,
+      "What should we output ?": 0.6666666666666665,
+      "What should be returned in the allow header ?": 0.6153846153846154,
+      "What should the command output contain then then ?": 0.6153846153846154,
+      "What should the command output not contain then ?": 0.6153846153846154,
+      "What should be removed from the file / directory ?": 0.6153846153846154,
+      "What should the user call ?": 0.6,
+      "What should distinct be used ?": 0.6,
+      "What should be tested here ?": 0.6,
+      "What should be written directory ?": 0.6
+    },
+    "avg_similarity_score": 0.2363341415239531
+  },
+  {
+    "instruction": "How to combine data ?",
+    "input": "def combine datasets dataset profile flags dataset list",
+    "output": "merge the datasets into a single dataset",
+    "most_similar_instructions": {
+      "How do linear transform apply to data ?": 0.5454545454545454,
+      "How do data learn ?": 0.5,
+      "How do data unpickl ?": 0.5,
+      "How do data extend ?": 0.5,
+      "How did data download ?": 0.5,
+      "How does data endcod ?": 0.5,
+      "How did data receive ?": 0.5,
+      "How do data sign ?": 0.5,
+      "How do transforms combine ?": 0.5
+    },
+    "avg_similarity_score": 0.039897115800218826
+  },
+  {
+    "instruction": "What is the format of the output ?",
+    "input": "def svm predict data sd imap lambda x x sd upredict data",
+    "output": "produce predictions in the SVM format",
+    "most_similar_instructions": {
+      "What is at the end of the file ?": 0.6666666666666666,
+      "What is the output of the following code ?": 0.6666666666666666,
+      "What is the path of the file used ?": 0.6666666666666666,
+      "What is containing the state of the warnings module ?": 0.6250000000000001,
+      "What is taking at the center of the bin ?": 0.6250000000000001,
+      "What is returning the content hierarchy of the current thread ?": 0.588235294117647,
+      "What is containing the item_types of all the metasources ?": 0.588235294117647,
+      "What is representing the comment format for the current file ?": 0.588235294117647
+    },
+    "avg_similarity_score": 0.2213505262512895
+  },
+  {
+    "instruction": "How to initialise an array ?",
+    "input": "def array init val numpy array val n 0 n",
+    "output": "initialise an array of given values with length n",
+    "most_similar_instructions": {
+      "How do an array fill ?": 0.6,
+      "How does an array trim ?": 0.6,
+      "How did an array encode ?": 0.6,
+      "How do an array of tensors clip ?": 0.5,
+      "How do message publish to an mqtt topic ?": 0.4615384615384615,
+      "How does a string convert to an integer ?": 0.4615384615384615,
+      "What does the code apply to an array ?": 0.4615384615384615,
+      "How do the values repeat in an array ?": 0.4615384615384615
+    },
+    "avg_similarity_score": 0.040858360094827136
+  },
+  {
+    "instruction": "What should the function be able to do ?",
+    "input": "def vectorize fcn vectorize scl vector fcn",
+    "output": "generate a vector from the given scalar function",
+    "most_similar_instructions": {
+      "What do the function do ?": 0.6153846153846154,
+      "What should the function verifiy ?": 0.6153846153846154,
+      "What should the parameter do ?": 0.6153846153846154,
+      "For what purpose should the only function be called ?": 0.5882352941176471,
+      "What should the attributes be removed ?": 0.5714285714285715,
+      "What should the migration be switched ?": 0.5714285714285715,
+      "What should the form be used ?": 0.5714285714285715,
+      "What should the attribute name be used ?": 0.5333333333333333,
+      "What should be switched to postcopy mode ?": 0.5333333333333333
+    },
+    "avg_similarity_score": 0.21731463834945594
+  },
+  {
+    "instruction": "What should be returned ?",
+    "input": "def create data X np ones shape 25 6",
+    "output": "return a matrix of ones with a shape of (25, 6)",
+    "most_similar_instructions": {
+      "What should be returned in the allow header ?": 0.6666666666666666,
+      "When should zero be returned ?": 0.6666666666666665,
+      "What should be written directory ?": 0.6666666666666665,
+      "What should be tested here ?": 0.6666666666666665,
+      "What should be the output ?": 0.6666666666666665,
+      "What should be looked where ?": 0.6666666666666665,
+      "What should distinct be used ?": 0.6666666666666665
+    },
+    "avg_similarity_score": 0.14955678165597247
+  },
+  {
+    "instruction": "How to access specific value ?",
+    "input": "def get value matrix np matrix row col",
+    "output": "access the value at the specified row and column in the matrix",
+    "most_similar_instructions": {
+      "How did eigenvectors value ?": 0.4444444444444445,
+      "How did array value ?": 0.4444444444444445,
+      "How did value separate ?": 0.4444444444444445,
+      "How did value cast ?": 0.4444444444444445,
+      "How to combine data ?": 0.4444444444444445,
+      "How do path access ?": 0.4444444444444445,
+      "What does decorator force to have a specific value ?": 0.42857142857142855,
+      "How do to work join ?": 0.4000000000000001,
+      "How does a value decode ?": 0.4000000000000001,
+      "How do to replies respond ?": 0.4000000000000001
+    },
+    "avg_similarity_score": 0.03714781446146033
+  },
+  {
+    "instruction": "What is the purpose of the given boolean expression ?",
+    "input": "a == b or b > c and d == e",
+    "output": "The boolean expression checks whether the values of variables a and b are equal, or b is greater than c and the value of d is equal to the value of e.",
+    "most_similar_instructions": {
+      "What is the purpose of this code ?": 0.6250000000000001,
+      "What is the format of the output ?": 0.6250000000000001,
+      "What is at the end of the file ?": 0.5882352941176471,
+      "What is the path of the file used ?": 0.5882352941176471,
+      "What is the output of the following code ?": 0.5882352941176471,
+      "What fullfils the requirements of the given method ?": 0.5882352941176471,
+      "What matches the given expression ?": 0.5714285714285714,
+      "What is the given dict ?": 0.5714285714285714,
+      "What contain the given expression ?": 0.5714285714285714
+    },
+    "avg_similarity_score": 0.19874144021527348
+  },
+  {
+    "instruction": "How can you write an if statement to display the right output ?",
+    "input": "list = [\"cat\", \"dog\", \"bird\"]",
+    "output": "To display the right output, an if statement can be written using the list as follows:\n\nif \"cat\" in list:\n    print(\"cat is in the list\")\nelif \"dog\" in list:\n    print(\"dog is in the list\")\nelif \"bird\" in list:\n    print(\"bird is in the list\")",
+    "most_similar_instructions": {
+      "How can you use the colours ?": 0.4444444444444444,
+      "How can you use the formats ?": 0.4444444444444444,
+      "How does an object resembling the moon go to the right place ?": 0.4166666666666667,
+      "What does the code write to the output file ?": 0.380952380952381,
+      "What can write a file to the supplied path ?": 0.380952380952381,
+      "What can you override to enable the app trap ?": 0.380952380952381,
+      "How does an lms link to the course return ?": 0.380952380952381
+    },
+    "avg_similarity_score": 0.08839028190492813
+  },
+  {
+    "instruction": "How can you sort a list of tuples based on the second and third element value ?",
+    "input": "list = [(1, 5, 9), (1, 3, 4), (4, 6, 2)]",
+    "output": "To sort the list of tuples based on the second and third element values, the sorted() function can be used with the key argument set to a lambda function that returns elements from the tuples.\n\nsorted_list = sorted(list, key = lambda x: (x[1], x[2]))",
+    "most_similar_instructions": {
+      "How does a list of the data return ?": 0.4166666666666667,
+      "What does the code delete from a list of tuples based on its first item ?": 0.38709677419354843,
+      "How do a token based on platform and version reject ?": 0.38461538461538464,
+      "How do a list of classes import from the given module ?": 0.3703703703703703,
+      "How can a range of values be specified in the list ?": 0.3703703703703703,
+      "How do a list of files in the provided directory retrieve ?": 0.3703703703703703,
+      "How can you use the colours ?": 0.36363636363636365,
+      "How can the value be sent ?": 0.36363636363636365,
+      "How can you use the formats ?": 0.36363636363636365
+    },
+    "avg_similarity_score": 0.08319841519378127
+  },
+  {
+    "instruction": "How can you convert the following code from procedural style to object-oriented programming principles ?",
+    "input": "def find_greatest_num(nums):\n    greatest = 0\n    for num in nums:\n        if num > greatest:\n            greatest = num\n            \n    return greatest",
+    "output": "The given code in procedural style can be converted to an object-oriented programming by creating a class and a method that can be called to find the greatest number.\n\nclass FindGreatest:\n    def __init__(self, nums):\n        self.nums = nums\n        self.greatest = 0\n        \n    def find_greatest_num(self):\n        for num in self.nums:\n            if num > self.greatest:\n                self.greatest = num\n        return self.greatest",
+    "most_similar_instructions": {
+      "How can the following code be optimized ?": 0.4545454545454545,
+      "How does the code draw a line from to ?": 0.4166666666666667,
+      "How does the code add noise to evoked object ?": 0.4166666666666667,
+      "How did the code read data from the file - object ?": 0.4,
+      "Can you modify the code to use a list comprehension ?": 0.4,
+      "How did the code get suffix hashes from the object server ?": 0.3846153846153846,
+      "How does the code match a node to the target object ?": 0.3846153846153846,
+      "How can you use the formats ?": 0.3809523809523809,
+      "How can you use the colours ?": 0.3809523809523809,
+      "How can the code be modified to receive a list as input?": 0.3703703703703704
+    },
+    "avg_similarity_score": 0.1201811408207862
+  },
+  {
+    "instruction": "How can you create a loop that prints out the specific indices of the given list ?",
+    "input": "list = [17, 56, 87, 45, 12, 74]",
+    "output": "To print out the specific indices of the given list, a loop can be created using the index() method with range() and len() as follows:\n\nfor i in range(len(list)):\n    print(\"Index {}: {}\".format(i, list[i]))",
+    "most_similar_instructions": {
+      "How does a copy of the given list return ?": 0.4800000000000001,
+      "How can a range of values be specified in the list ?": 0.4444444444444444,
+      "How can you retrieve the value of a given key from a dictionary ?": 0.41379310344827586,
+      "Can you create a function to return the lowest value in a list ?": 0.41379310344827586,
+      "How does a string of the hexdigest of the given plaintext password and salt return ?": 0.38709677419354843,
+      "How does the code compress the given list of strings ?": 0.38461538461538464,
+      "How does a summarized version of the given text return ?": 0.38461538461538464,
+      "How can you sort a list of tuples based on the second and third element value ?": 0.375,
+      "How do a list of classes import from the given module ?": 0.3703703703703703,
+      "How did a value derive from the coefficients of the matrix ?": 0.3703703703703703
+    },
+    "avg_similarity_score": 0.09036130316269575
+  },
+  {
+    "instruction": "How can you add a new item \"Banana\" to the given list ?",
+    "input": "list = [\"Apple\", \"Orange\", \"Strawberry\"]",
+    "output": "The new item \"Banana\" can be added to the given list by using the append() method as follows:\n\nlist.append(\"Banana\")",
+    "most_similar_instructions": {
+      "How can you create a loop that prints out the specific indices of the given list ?": 0.5,
+      "How did them add to the stmts_list ?": 0.5,
+      "How does the code add a handler to the internal cleanup list ?": 0.5,
+      "Can you create a function to return the lowest value in a list ?": 0.48000000000000004,
+      "How does a copy of the given list return ?": 0.4761904761904762,
+      "When can you add keys to the ask system ?": 0.4761904761904762,
+      "How does the code add a version to the tracker ?": 0.45454545454545453,
+      "What can you add to the ask system at runtime ?": 0.45454545454545453,
+      "How can you use the colours ?": 0.4444444444444444,
+      "How can you use the formats ?": 0.4444444444444444
+    },
+    "avg_similarity_score": 0.10279454580868468
+  },
+  {
+    "instruction": "What code structure can you use to delete an item from a dictionary ?",
+    "input": "dictionary = { \"name\": \"Vinay\", \"age\": 23, \"gender\": \"male\" }",
+    "output": "A code structure can be used to delete an item from the given dictionary by using the del keyword as follows:\n\ndel dictionary[\"age\"]",
+    "most_similar_instructions": {
+      "Does the code delete an item or items from a queue ?": 0.4999999999999999,
+      "What does the code ask to select an item from the list ?": 0.48000000000000004,
+      "What does the code delete from a queue ?": 0.4761904761904762,
+      "What does the code delete from a dataset ?": 0.4761904761904762,
+      "What does the code extract from a dictionary ?": 0.4761904761904762,
+      "What does the code get from a dictionary ?": 0.4761904761904762,
+      "What does the code convert to a dictionary ?": 0.4761904761904762,
+      "What does the code delete from a db ?": 0.4761904761904762
+    },
+    "avg_similarity_score": 0.15902424703527118
+  },
+  {
+    "instruction": "How can you create a loop that prints all values in the given dictionary ?",
+    "input": "dictionary = {\"name\": \"Vinay\", \"age\": 23, \"gender\": \"male\"}",
+    "output": "The loop that prints all values in the given dictionary can be created with the items() method and a for loop as follows:\n\nfor key, value in dictionary.items():\n    print(value)",
+    "most_similar_instructions": {
+      "How can you create a loop that prints out the specific indices of the given list ?": 0.6666666666666666,
+      "How can a range of values be specified in the list ?": 0.4799999999999999,
+      "How can you add a new item \"Banana\" to the given list ?": 0.4615384615384615,
+      "How can you retrieve the value of a given key from a dictionary ?": 0.4444444444444445,
+      "How do all modules used in the given module reload ?": 0.41666666666666663,
+      "How can a file upload be updated into the post dictionary ?": 0.4,
+      "How can you use the colours ?": 0.4,
+      "How does the code create a mapping in a given index ?": 0.4,
+      "What exists in the given dictionary ?": 0.4,
+      "How can you use the formats ?": 0.4
+    },
+    "avg_similarity_score": 0.09407382862061928
+  },
+  {
+    "instruction": "How can you display a message if the entered number is > 10 individually for all the numbers from a given list ?",
+    "input": "list = [6, 5, 9, 11, 15]",
+    "output": "To display a message if the entered number is > 10 individually for all the numbers from a given list, an if statement can be used inside a for loop as follows:\n\nfor num in list:\n    if num > 10:\n        print(\"The number {} is greater than 10\".format(num))",
+    "most_similar_instructions": {
+      "How can you create a loop that prints out the specific indices of the given list ?": 0.4324324324324324,
+      "How can you add a new item \"Banana\" to the given list ?": 0.4242424242424242,
+      "How can you create a loop that prints all values in the given dictionary ?": 0.4,
+      "How can we modify the code to check if the number is a prime?": 0.4,
+      "How do all the senteces load from a list of txt files ?": 0.36363636363636365,
+      "Can you create a function to return the lowest value in a list ?": 0.35294117647058826,
+      "How can you retrieve the value of a given key from a dictionary ?": 0.35294117647058826,
+      "How do all modules from a given package load ?": 0.33333333333333326,
+      "How can a value be changed within a list ?": 0.33333333333333326,
+      "How can a value be retrieved from a dictionary ?": 0.33333333333333326
+    },
+    "avg_similarity_score": 0.08724199813120495
+  },
+  {
+    "instruction": "How can you print \"Python is a great language\" using the given code ?",
+    "input": "message = \"Python is a great language\"\nfor letter in message:\n  print(letter, end=\"\")",
+    "output": "To print \"Python is a great language\" using the given code, the for loop with the end=\"\" argument can be used as follows:\n\nfor letter in message:\n print(letter, end=\"\")\nprint(\"\")",
+    "most_similar_instructions": {
+      "How can you add a new item \"Banana\" to the given list ?": 0.48000000000000004,
+      "How can you create a loop that prints all values in the given dictionary ?": 0.4444444444444445,
+      "How is the code traversed ?": 0.4444444444444444,
+      "How can you use the formats ?": 0.42105263157894735,
+      "What is using the given engine ?": 0.42105263157894735,
+      "How is a given header set ?": 0.42105263157894735,
+      "How can you use the colours ?": 0.42105263157894735,
+      "How is a given cookie set ?": 0.42105263157894735
+    },
+    "avg_similarity_score": 0.13912404650414426
+  },
+  {
+    "instruction": "How can you limit a function to accept at most 3 arguments ?",
+    "input": "def sum_numbers(a, b, c):\n    return a + b + c",
+    "output": "The function can be limited to accept at most 3 arguments by using the *args argument as follows:\n\ndef sum_numbers(*args):\n    if len(args) > 3:\n       return \"too many arguments\"\n    else:\n        return sum(args)",
+    "most_similar_instructions": {
+      "What does a function accept at all ?": 0.4210526315789474,
+      "How can introspection pull arguments from a function definition to ensure hug ?": 0.4166666666666667,
+      "How can you add a new item \"Banana\" to the given list ?": 0.4166666666666667,
+      "How do a function apply to all values ?": 0.4,
+      "Can you create a function to return the lowest value in a list ?": 0.4,
+      "How can which arguments supplied a function will take identify to ensure hug introspection ?": 0.3846153846153846,
+      "How can introspection identify the difference between a function and method to ensure hugs ?": 0.3846153846153846,
+      "How can a tpot operator export to a classifier ?": 0.380952380952381,
+      "How can a message be sent to a pentity ?": 0.380952380952381,
+      "What logs how long a particular function took to execute ?": 0.3636363636363636
+    },
+    "avg_similarity_score": 0.0460499373896067
+  },
+  {
+    "instruction": "What do we specify if we want accurate results from the distance metric ?",
+    "input": "def calculate_distance a b metric ='euclidean' return scipy spatial distance metric a b metric",
+    "output": "appropriate values for the parameters `a`and `b`",
+    "most_similar_instructions": {
+      "What do we want ?": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.15756421452364852
+  },
+  {
+    "instruction": "What must the tokenizer return when it is called ?",
+    "input": "def tokenize data tokenizer = None if tokenizer is None return word_tokenize data else return tokenizer data",
+    "output": "a sequence of tokens",
+    "most_similar_instructions": {
+      "What does the code return if it is a decimal ?": 0.5263157894736842,
+      "What does an iterator return every time it is called ?": 0.5263157894736842,
+      "What does the code raise when called ?": 0.5,
+      "What does the code return to document it ?": 0.47058823529411764,
+      "What does the return ?": 0.46153846153846156,
+      "When is this called ?": 0.46153846153846156
+    },
+    "avg_similarity_score": 0.18913772305140447
+  },
+  {
+    "instruction": "How can we set the base directory while initializing the Text dataset ?",
+    "input": "def __init__ self base dir = None if not os path exists base dir raise FileNotFoundError self dir = os path join base dir",
+    "output": "by passing the path to an existing directory into the `base_dir` argument",
+    "most_similar_instructions": {
+      "How can we set a locale ?": 0.4444444444444444,
+      "When can we set the date only ?": 0.4210526315789474,
+      "How did the code split the string text ?": 0.4,
+      "How can we make the output of the function always be in lowercase?": 0.4,
+      "How does the code summarize the given text ?": 0.4,
+      "How does the code split the given text ?": 0.4,
+      "How can we tokenize sources at the end ?": 0.4,
+      "How can we modify the code to check if the number is a prime?": 0.3846153846153846,
+      "What can we set only up to the minute ?": 0.380952380952381,
+      "How do the home directory of the user change ?": 0.380952380952381
+    },
+    "avg_similarity_score": 0.0885469958677468
+  },
+  {
+    "instruction": "How many parameters does the count vectorizer function require ?",
+    "input": "def count_vectorizer x max features=None tokenizer=None if tokenizer is None tokenizer=word_tokenize tokenizer=preprocessing x lower max features",
+    "output": "Three parameters: `x`, `max_features`, and `tokenizer`.",
+    "most_similar_instructions": {
+      "Does the function require authentication ?": 0.5714285714285714,
+      "What does the function not require ?": 0.5333333333333333,
+      "How does the code expose this function ?": 0.5,
+      "How does the code minimize a function ?": 0.5,
+      "How does the code decorate a function ?": 0.5,
+      "How does the code resolve a function ?": 0.5,
+      "How does the code apply a function ?": 0.5
+    },
+    "avg_similarity_score": 0.15822861961126586
+  },
+  {
+    "instruction": "What must we include to ensure the parameters are immutable ?",
+    "input": "def set_parameters a b c immutable = True if immutable a b c = const a b c",
+    "output": "the `const` keyword before assigning the variables `a`, `b`, and `c`",
+    "most_similar_instructions": {
+      "What do we move to the sr ?": 0.47058823529411764,
+      "What do we ensure ?": 0.4285714285714285,
+      "What must we escape ?": 0.4285714285714285,
+      "What should we include ?": 0.4285714285714285,
+      "What can the we write to the supplied path ?": 0.4210526315789474,
+      "What can we set only up to the minute ?": 0.4210526315789474,
+      "What do we use to log the bugdown error ?": 0.4210526315789474,
+      "What does the code retrieve according to the given parameters ?": 0.4000000000000001
+    },
+    "avg_similarity_score": 0.16966270433433747
+  },
+  {
+    "instruction": "How do we count the length of the words in a given string ?",
+    "input": "def get length words s for word in s split l len word",
+    "output": "by iterating through the list of words in the string and storing the lengths of each word in a list, then summing up the list items",
+    "most_similar_instructions": {
+      "How do a list of the words in the string s return ?": 0.5599999999999999,
+      "How do the user name of the currently loggen in user return as a unicode string ?": 0.5517241379310345,
+      "How do a given string shorten ?": 0.5263157894736842,
+      "How do the given string escape ?": 0.5263157894736842,
+      "How do the name of the primary group that owns a given file return ?": 0.5185185185185186,
+      "How do a string composed of the words in list return ?": 0.4999999999999999,
+      "How do the content of the file return ?": 0.4761904761904762,
+      "How do the contents of the blog filter ?": 0.4761904761904762
+    },
+    "avg_similarity_score": 0.1278304589252275
+  },
+  {
+    "instruction": "How can we handle hidden layers in a neural network ?",
+    "input": "def hidden_layers model hidden layers =None model classifier model add hidden layers",
+    "output": "by passing the list of hidden_layers to the `model.add()` method",
+    "most_similar_instructions": {
+      "How can we set a locale ?": 0.5,
+      "How can we be converted to a datetimelike ?": 0.4444444444444445,
+      "How can we publish ?": 0.4285714285714285,
+      "How can we connect ?": 0.4285714285714285,
+      "How can we take uris ?": 0.4,
+      "How can we construct fileobjects ?": 0.4,
+      "How can we run tests ?": 0.4,
+      "How can we compile functions ?": 0.4
+    },
+    "avg_similarity_score": 0.04740857172986621
+  },
+  {
+    "instruction": "What type of output will the following code produce ?",
+    "input": "def simple_print array = ['a', 'b', 'c'] for i in array print array i",
+    "output": "The code will produce a sequence of 3 strings, with each string being the same as the current item in the array.",
+    "most_similar_instructions": {
+      "What is the output of the following code ?": 0.5882352941176471,
+      "What type of data is the code manipulating ?": 0.5882352941176471,
+      "What does the code produce ?": 0.5714285714285714
+    },
+    "avg_similarity_score": 0.23157542919555824
+  },
+  {
+    "instruction": "What will be the result of passing a matrix through sign function ?",
+    "input": "def sign matrix for row in matrix for col in row matrix row col np sign matrix row col",
+    "output": "The result will be a matrix with values equal to the signs (positive, negative, or zero) of the corresponding elements in the original matrix.",
+    "most_similar_instructions": {
+      "What will be sorted in the case of a tie ?": 0.5454545454545454,
+      "What captures the arguments of a function ?": 0.5263157894736842,
+      "What caches the return value of a function ?": 0.5,
+      "What starts the argument list of a function call ?": 0.4761904761904762,
+      "What will run the function ?": 0.47058823529411764,
+      "What will a function return ?": 0.47058823529411764,
+      "What will the function get ?": 0.47058823529411764,
+      "What will a function check ?": 0.47058823529411764,
+      "What be appended at the end of a js script ?": 0.45454545454545453
+    },
+    "avg_similarity_score": 0.1702099882041945
+  },
+  {
+    "instruction": "How can we select the most frequent words in a text ?",
+    "input": "def get_frequent_words text tokenizer=None word_freq=None if tokenizer is None tokenizer=word_tokenize tokens = tokenizer text count = Counter tokens for token in tokens if word_freq is None or count token >= word_freq",
+    "output": "by creating a count object from the list of tokens from the text, then looping through the tokens and filtering out those with frequencies lower than the required threshold.",
+    "most_similar_instructions": {
+      "How do we count the length of the words in a given string ?": 0.4999999999999999,
+      "How can we handle hidden layers in a neural network ?": 0.47619047619047616,
+      "How can we set a locale ?": 0.4705882352941177,
+      "How can we select per - host proxies ?": 0.4444444444444444,
+      "How can we set the base directory while initializing the Text dataset ?": 0.43478260869565216,
+      "How do the key in a dictionary lookup ?": 0.4210526315789474,
+      "How does the code replace placeholders in text ?": 0.4210526315789474,
+      "How does the return in a passed sequence ?": 0.4210526315789474,
+      "How can we be converted to a datetimelike ?": 0.4210526315789474,
+      "How can we tokenize sources at the end ?": 0.4210526315789474
+    },
+    "avg_similarity_score": 0.10843608439921758
+  },
+  {
+    "instruction": "How can we train a machine learning model to classify between different classes ?",
+    "input": "def classify_model x y model model fit x y model predict x",
+    "output": "by fitting the model on the data `x` and `y`, and then predicting the labels for `x` using the `model.predict()` method.",
+    "most_similar_instructions": {
+      "How can we set a locale ?": 0.42105263157894735,
+      "How can we connect to solr ?": 0.42105263157894735,
+      "How can we be converted to a datetimelike ?": 0.380952380952381,
+      "Where can we load a convolutional rectifier model ?": 0.380952380952381,
+      "How can a tpot operator export to a classifier ?": 0.3636363636363637,
+      "How can a message be sent to a pentity ?": 0.3636363636363637,
+      "How can it be cast to a machine int ?": 0.3636363636363637,
+      "How can with a dummy model be trained tests ?": 0.3636363636363637,
+      "How can we publish ?": 0.3529411764705882,
+      "How can we connect ?": 0.3529411764705882
+    },
+    "avg_similarity_score": 0.041494611768968376
+  },
+  {
+    "instruction": "What is the function of the main() function in Python code ?",
+    "input": "def main argument = None print 'This is the main function'",
+    "output": "The main() function is the entry point into the program and is responsible for initializing the program and executing the main logic of the program.",
+    "most_similar_instructions": {
+      "What is the output of the following code ?": 0.631578947368421,
+      "Where is the function defined the function ?": 0.5555555555555556,
+      "What is the format of the output ?": 0.5555555555555556,
+      "What is the purpose of this code ?": 0.5555555555555556,
+      "What leave the scope of the decorated function ?": 0.5263157894736842,
+      "What is the path of the file used ?": 0.5263157894736842,
+      "What is at the end of the file ?": 0.5263157894736842,
+      "What is the code guess ?": 0.5000000000000001,
+      "What is the code find ?": 0.5000000000000001
+    },
+    "avg_similarity_score": 0.22078329981531408
+  },
+  {
+    "instruction": "How can we create a list comprehension to sum up all the values in the given list ?",
+    "input": "def sum_list input_list =[1,2,3] output_list = [x for x in input_list] output_sum = sum output_list",
+    "output": "By using a list comprehension that takes each item from the list and appends it to a new list, and then using the `sum()` function on the resulting list.",
+    "most_similar_instructions": {
+      "How can you create a loop that prints all values in the given dictionary ?": 0.5806451612903226,
+      "How can a range of values be specified in the list ?": 0.5,
+      "How can you create a loop that prints out the specific indices of the given list ?": 0.48484848484848486,
+      "How can we modify the code to get the items in the list in reverse order?": 0.48484848484848486,
+      "How can you add a new item \"Banana\" to the given list ?": 0.4827586206896552,
+      "Can you create a function to return the lowest value in a list ?": 0.4666666666666667,
+      "How do all the views in the passed urlpatterns list decorate ?": 0.42857142857142855,
+      "How does a list of all subdirectories in the test suite build ?": 0.41379310344827586,
+      "How do a list of the words in the string s return ?": 0.41379310344827586,
+      "How do all occurrences of find replace the code in the_list ?": 0.41379310344827586
+    },
+    "avg_similarity_score": 0.09346400880847712
+  },
+  {
+    "instruction": "What must be imported before calling the read_csv function ?",
+    "input": "def read_csv filename path = None return pandas read_csv filename path",
+    "output": "The `pandas` library must be imported before calling the `read_csv()` function.",
+    "most_similar_instructions": {
+      "What must be found before the registered printer for dict ?": 0.5,
+      "What must be installed on the windows ?": 0.47058823529411764,
+      "What must be using the checkboxselectmultiple widget ?": 0.47058823529411764,
+      "What must be defined in the config key file ?": 0.4210526315789474,
+      "For what purpose must the protocol modules be imported ?": 0.4210526315789474,
+      "What is calling the function to the given name ?": 0.4210526315789474,
+      "What does decorator apply to the arguments of a function before calling the function ?": 0.41666666666666663,
+      "What applies pre - processors to the arguments of a function before calling the function ?": 0.41666666666666663,
+      "What will the function get ?": 0.4,
+      "What did the code read ?": 0.4
+    },
+    "avg_similarity_score": 0.16647168869409396
+  },
+  {
+    "instruction": "How can we check that an object is a list ?",
+    "input": "def is_list obj return isinstance obj list",
+    "output": "By using the `isinstance()` function to check if the object is of type `list`.",
+    "most_similar_instructions": {
+      "How is a list sorted ?": 0.5333333333333333,
+      "How can we modify the code to check if the number is a prime?": 0.5,
+      "How can we set a locale ?": 0.5,
+      "How do an object traverse until a flat list is found ?": 0.47619047619047616,
+      "How do whether an object is iterable test ?": 0.4444444444444445,
+      "How can we be converted to a datetimelike ?": 0.4444444444444445,
+      "What can we use a list of members ?": 0.4444444444444445,
+      "How can we connect ?": 0.4285714285714285
+    },
+    "avg_similarity_score": 0.054687346852895884
+  },
+  {
+    "instruction": "How can you alter the following code to return a list instead of a string ?",
+    "input": "def lookup name return '' name in NAMES",
+    "output": "return [name] if name in NAMES else []",
+    "most_similar_instructions": {
+      "How does the code return a list of clusters ?": 0.5833333333333334,
+      "How does the code join a list into a string ?": 0.56,
+      "Can you modify the code to use a list comprehension ?": 0.56,
+      "How does the code return a file list in a folder ?": 0.5384615384615385,
+      "How does the code return a folder list in a folder ?": 0.5384615384615385,
+      "How can the code be modified to receive a list as input?": 0.5185185185185186,
+      "Can you modify the code to sum a given array of integers ?": 0.5185185185185186,
+      "How does the code turn a list of inventories in a dict ?": 0.5185185185185186,
+      "How does the code turn a list of allocations into a dict ?": 0.5185185185185186,
+      "How does the code return a slice of items ?": 0.5
+    },
+    "avg_similarity_score": 0.14171980640812565
+  },
+  {
+    "instruction": "How can you transform the following code to accept a function parameter ?",
+    "input": "def apply list func return list map lambda x item x func",
+    "output": "def apply list func return list map lambda x f x func f",
+    "most_similar_instructions": {
+      "How can you alter the following code to return a list instead of a string ?": 0.5925925925925926,
+      "Can you modify the code to use a list comprehension ?": 0.5454545454545454,
+      "How does the code decorate a function ?": 0.5263157894736842,
+      "How does the code resolve a function ?": 0.5263157894736842,
+      "How does the code install a _ ( ) function ?": 0.5263157894736842,
+      "How does the code apply a function ?": 0.5263157894736842,
+      "How does the code minimize a function ?": 0.5263157894736842,
+      "How can the following code be optimized ?": 0.5263157894736842
+    },
+    "avg_similarity_score": 0.1537117204683347
+  },
+  {
+    "instruction": "How can you make the following code more efficient ?",
+    "input": "def remove negative numbers nums new nums for num in nums if num > 0 new nums append num return new nums",
+    "output": "def remove negative numbers nums return [num for num in nums if num > 0]",
+    "most_similar_instructions": {
+      "How can the following code be optimized ?": 0.6250000000000001,
+      "How can you transform the following code to accept a function parameter ?": 0.5714285714285715,
+      "How can you use the formats ?": 0.5333333333333333,
+      "How can you use the colours ?": 0.5333333333333333,
+      "How can you alter the following code to return a list instead of a string ?": 0.5,
+      "How can you convert the following code from procedural style to object-oriented programming principles ?": 0.5,
+      "What can be improved in the following code ?": 0.47058823529411764,
+      "How can this class be made more efficient ?": 0.47058823529411764,
+      "How can you print \"Python is a great language\" using the given code ?": 0.4545454545454546,
+      "How does the code make profiler output more readable ?": 0.4444444444444444
+    },
+    "avg_similarity_score": 0.14930338220057324
+  },
+  {
+    "instruction": "How can you improve the code to make it more readable ?",
+    "input": "def filter items condition new items for item in items if condition item new items append item return new items",
+    "output": "def filter items condition return [item for item in items if condition item]",
+    "most_similar_instructions": {
+      "How can you make the following code more efficient ?": 0.6,
+      "How does the code make profiler output more readable ?": 0.6,
+      "How can you transform the following code to accept a function parameter ?": 0.5217391304347826,
+      "Can you modify the code to use a list comprehension ?": 0.47619047619047616,
+      "How does the code strip it ?": 0.4705882352941177,
+      "How does the code save it ?": 0.4705882352941177,
+      "How does the code render it ?": 0.4705882352941177,
+      "How can you use the formats ?": 0.4705882352941177
+    },
+    "avg_similarity_score": 0.14405272027491853
+  },
+  {
+    "instruction": "How can the code be altered to increase performance ?",
+    "input": "def sum nums total 0 for num in nums total total + num return total",
+    "output": "def sum nums return sum nums",
+    "most_similar_instructions": {
+      "How can the following code be optimized ?": 0.6250000000000001,
+      "How can the code be modified to receive a list as input?": 0.5714285714285715,
+      "How can the input be converted to a float ?": 0.5555555555555556,
+      "How can this code be improved ?": 0.5333333333333333,
+      "How can the reports be saved ?": 0.5333333333333333,
+      "How can the argument be serialized ?": 0.5333333333333333,
+      "How can the value be sent ?": 0.5333333333333333,
+      "How can the threshold be set ?": 0.5333333333333333,
+      "How can the code logging in security_monkey be configured ?": 0.5263157894736842
+    },
+    "avg_similarity_score": 0.16014162742081464
+  },
+  {
+    "instruction": "How can the code be altered to accept an arbitrary number of arguments ?",
+    "input": "def add num1 num2 return num1 + num2",
+    "output": "def add *args return sum args",
+    "most_similar_instructions": {
+      "How can the code be altered to increase performance ?": 0.6363636363636364,
+      "How can the following code be optimized ?": 0.5,
+      "How can the code be modified to receive a list as input?": 0.48000000000000004,
+      "How can you transform the following code to accept a function parameter ?": 0.48000000000000004,
+      "How can the numpy data type dt be cast to an int ?": 0.48000000000000004,
+      "Can the code be modified to print the smallest number in the list?": 0.46153846153846156,
+      "How does the code convert an interval string into the number of seconds ?": 0.46153846153846156,
+      "How can the input be converted to a float ?": 0.4545454545454546,
+      "What can contain an arbitrary number of glsa ids ?": 0.4545454545454546,
+      "How did the code use to evaluate an expresseion ?": 0.4545454545454546
+    },
+    "avg_similarity_score": 0.13580203438120828
+  },
+  {
+    "instruction": "How can the output be altered to exclude a certain value ?",
+    "input": "def get numbers nums return nums",
+    "output": "def get numbers nums return [num for num in nums if num != x]",
+    "most_similar_instructions": {
+      "How can the input be converted to a float ?": 0.6,
+      "How can the code be altered to increase performance ?": 0.6,
+      "How can we be converted to a datetimelike ?": 0.5263157894736842,
+      "How can the code be modified to receive a list as input?": 0.5217391304347826,
+      "How can equations be converted to a polynomial equation ?": 0.5,
+      "How can a message be sent to a pentity ?": 0.5,
+      "How can it be cast to a machine int ?": 0.5,
+      "How can the code be altered to accept an arbitrary number of arguments ?": 0.4999999999999999,
+      "How can the connection be made to the vcenter server ?": 0.47619047619047616
+    },
+    "avg_similarity_score": 0.1126251532138232
+  },
+  {
+    "instruction": "How can the code be changed to accept any data type ?",
+    "input": "def my filter lst item return lst filter int",
+    "output": "def my filter lst item return lst filter lambda x x == item",
+    "most_similar_instructions": {
+      "How can the code be altered to increase performance ?": 0.6,
+      "How can the code be altered to accept an arbitrary number of arguments ?": 0.5833333333333334,
+      "How can the following code be optimized ?": 0.5555555555555556,
+      "How can you transform the following code to accept a function parameter ?": 0.5217391304347826,
+      "How can the code be modified to receive a list as input?": 0.5217391304347826,
+      "How can the input be converted to a float ?": 0.5,
+      "How does the code run so that any type can ?": 0.47619047619047616,
+      "How can the footer be disabled to the table constructor ?": 0.47619047619047616,
+      "How can the code logging in security_monkey be configured ?": 0.47619047619047616,
+      "How can the connection be made to the vcenter server ?": 0.47619047619047616
+    },
+    "avg_similarity_score": 0.14441704825793797
+  },
+  {
+    "instruction": "How can the code be optimised to run faster ?",
+    "input": "def calculate times nums results = [] for num in nums results append num times return results",
+    "output": "def calculate times nums return [num * times for num in nums]",
+    "most_similar_instructions": {
+      "How can the code be altered to increase performance ?": 0.6666666666666666,
+      "How can the following code be optimized ?": 0.6250000000000001,
+      "How can the code be changed to accept any data type ?": 0.6,
+      "Where can the code be run only only ?": 0.5882352941176471,
+      "How can the code be modified to receive a list as input?": 0.5714285714285715,
+      "How does the code run ?": 0.5714285714285714,
+      "How can it be run ?": 0.5714285714285714
+    },
+    "avg_similarity_score": 0.16241496680319606
+  },
+  {
+    "instruction": "Rewrite the following code to use list comprehension ?",
+    "input": "def transform list fn new list for item in list new list append fn item return new list",
+    "output": "def transform list fn return [fn item for item in list]",
+    "most_similar_instructions": {
+      "Can you modify the code to use a list comprehension ?": 0.6666666666666665,
+      "What does the code add to a list ?": 0.5,
+      "What does the code add to authorised list ?": 0.5,
+      "What does the code decode to python list ?": 0.5,
+      "What does the code convert to a list ?": 0.5,
+      "What does the code add to media list ?": 0.5,
+      "What does the code add to the list table ?": 0.47058823529411764,
+      "What does the code add to the watch list ?": 0.47058823529411764,
+      "What does the code add to the pixel list ?": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.15502546851249646
+  },
+  {
+    "instruction": "How can you alter the code for better error handling ?",
+    "input": "def do stuff work",
+    "output": "def do stuff work try return work except Exception as e return None",
+    "most_similar_instructions": {
+      "How can you make the following code more efficient ?": 0.5263157894736842,
+      "How can you use the colours ?": 0.5,
+      "How can you use the formats ?": 0.5,
+      "How can you alter the following code to return a list instead of a string ?": 0.48,
+      "How can you improve the code to make it more readable ?": 0.47619047619047616,
+      "How does the code search for it ?": 0.47058823529411764,
+      "How does the code throw an error ?": 0.47058823529411764,
+      "How can the following code be optimized ?": 0.47058823529411764,
+      "How does the code add index for ?": 0.47058823529411764,
+      "How can you transform the following code to accept a function parameter ?": 0.45454545454545453
+    },
+    "avg_similarity_score": 0.14508412008580432
+  },
+  {
+    "instruction": "How can the code be changed to create a new object ?",
+    "input": "def create obj",
+    "output": "def create obj return obj()",
+    "most_similar_instructions": {
+      "How can the code be changed to accept any data type ?": 0.6363636363636364,
+      "How does the code create a new aggregate ?": 0.631578947368421,
+      "How does the code create a new paste ?": 0.631578947368421,
+      "How does the code create a new image ?": 0.631578947368421,
+      "How does the code create a new branch ?": 0.631578947368421,
+      "How does the code create a class object ?": 0.631578947368421,
+      "How can the code be modified to receive a list as input?": 0.6086956521739131,
+      "How can the code be optimised to run faster ?": 0.6
+    },
+    "avg_similarity_score": 0.1674412888447203
+  },
+  {
+    "instruction": "How would the code combine URLs ?",
+    "input": "def combine urls arr\n\tcombined url ''\n\tfor url in arr\n\t\turl = url.replace 'http https ' ' '\n\t\tcombined url combined url + '/' + url\n\treturn combined url",
+    "output": "a combined URL string with a forward slash separator between the URLs",
+    "most_similar_instructions": {
+      "How does the code perform ?": 0.5454545454545454,
+      "How did the give code ?": 0.5454545454545454,
+      "How does the code convert ?": 0.5454545454545454,
+      "What does the code combine ?": 0.5454545454545454,
+      "How did the code give ?": 0.5454545454545454,
+      "How did the code deprecate ?": 0.5454545454545454,
+      "How did the code truncate ?": 0.5454545454545454,
+      "How did the code read ?": 0.5454545454545454,
+      "How did the code use ?": 0.5454545454545454
+    },
+    "avg_similarity_score": 0.18202127852969344
+  },
+  {
+    "instruction": "How would the code insert data into a list ?",
+    "input": "def insert data list value\n  list.insert 0 value\n  return list",
+    "output": "data at the front of the list",
+    "most_similar_instructions": {
+      "How does the code insert a row into a qtable ?": 0.631578947368421,
+      "How does the code join a list ?": 0.6250000000000001,
+      "How did the code cut a list ?": 0.6250000000000001,
+      "What does the code insert into a path ?": 0.5882352941176471,
+      "What does the code insert into a loop ?": 0.5882352941176471,
+      "What does the code concatenate into a list ?": 0.5882352941176471
+    },
+    "avg_similarity_score": 0.17311819334659634
+  },
+  {
+    "instruction": "How would the code search for a pattern?",
+    "input": "def search pattern text\n    matches = re.findall pattern, text\n    return matches",
+    "output": "all matches to a regular expression pattern in a string",
+    "most_similar_instructions": {
+      "How does the code search for it ?": 0.6666666666666666,
+      "How does the code search for special words ?": 0.625,
+      "How would the code insert data into a list ?": 0.5882352941176471,
+      "How does the code generate a single test pattern ?": 0.5882352941176471,
+      "How would the code combine URLs ?": 0.5714285714285715,
+      "How does the code return the status for a service ?": 0.5555555555555556,
+      "How does the code join a list ?": 0.5333333333333333
+    },
+    "avg_similarity_score": 0.1848801981031855
+  },
+  {
+    "instruction": "How would the code find an item in a list ?",
+    "input": "def find item list \n    for element in list \n        if element == item \n            return True \n    return False",
+    "output": "whether an item is present in a list",
+    "most_similar_instructions": {
+      "How would the code insert data into a list ?": 0.631578947368421,
+      "What does the code find in a list of tuples ?": 0.6,
+      "How does the function delete an item from a list?": 0.6,
+      "How does the code join a list ?": 0.588235294117647,
+      "How does the code find a file ?": 0.588235294117647,
+      "How does the code find an element ?": 0.588235294117647,
+      "How did the code cut a list ?": 0.588235294117647
+    },
+    "avg_similarity_score": 0.17099165232819719
+  }
+]

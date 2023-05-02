@@ -35,6 +35,4 @@ def code_to_json_format(data_path="data/python/train/", json_path="code_dataset.
 
   f = open(os.path.join(Root_path, alpaca_dir, json_path), 'w')
   json.dump(dataset, f)
-  # for i in dataset:
-    # json.dump(i, f)
   f.close()

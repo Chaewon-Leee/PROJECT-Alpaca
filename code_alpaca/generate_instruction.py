@@ -30,7 +30,7 @@ import make_dataset
 
 def encode_prompt(prompt_instructions):
     """Encode multiple prompt instructions into a single string."""
-    prompt = open("./prompt.txt").read() + "\n"
+    prompt = open("./code_prompt.txt").read() + "\n"
 
     for idx, task_dict in enumerate(prompt_instructions):
         (instruction, input, output) = task_dict["instruction"], task_dict["input"], task_dict["output"]
@@ -144,8 +144,8 @@ def generate_instruction_following_data(
     # load the LM-generated instructions
 		### 머신 생성 파일 regen.json에 저장
     machine_instruction_data = []
-    if os.path.exists(os.path.join(output_dir, "regen.json")):
-        machine_instruction_data = utils.jload(os.path.join(output_dir, "regen.json"))
+    if os.path.exists(os.path.join(output_dir, "code_regen.json")):
+        machine_instruction_data = utils.jload(os.path.join(output_dir, "code_regen.json"))
         print(f"Loaded {len(machine_instruction_data)} machine-generated instructions")
 
     # similarities = {}
@@ -241,7 +241,7 @@ def generate_instruction_following_data(
         print(f"Generated {total} instructions, kept {keep} instructions")
 
 				### regen.json 경로에 machine_instruction_data 추가
-        utils.jdump(machine_instruction_data, os.path.join(output_dir, "regen.json"))
+        utils.jdump(machine_instruction_data, os.path.join(output_dir, "code_regen.json"))
 
 
 def main(task, **kwargs):
