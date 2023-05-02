@@ -16,7 +16,9 @@
     ```python -m generate_instruction generate_instruction_following_data```
 
 - trouble shooting
+
     `typeerror: 'type' object is not subscriptable`
+
     ```python
     from typing import Optional, Sequence, Union, Dict
 
