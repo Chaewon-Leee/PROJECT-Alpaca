@@ -45,7 +45,7 @@
 
 1. [input / output 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/Check_Input%26Output.ipynb)
 2. code Q&A 데이터셋에 대해 fine-tuning
-  1. generation instruction dataset in specific domain (code Q&A)
+    1. generation instruction dataset in specific domain (code Q&A)
 
 ### Reference
 - [notion page](https://royal-tiger-88d.notion.site/Alpaca-KoAlpaca-b7584b13b81c45f0bdd2ca1a62d29707)
