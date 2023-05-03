@@ -113,8 +113,8 @@ def find_word_in_string(w, s):
 
 def generate_instruction_following_data(
     output_dir="./",
-    seed_tasks_path="./code_dataset.jsonl", # 기존 175개의 데이터셋
-    num_instructions_to_generate=100, # 만들고자 하는 데이터셋 총 개수
+    seed_tasks_path="./code_seed_tasks.jsonl", # 기존 175개의 데이터셋
+    num_instructions_to_generate=1000, # 만들고자 하는 데이터셋 총 개수
     model_name="text-davinci-003",
     num_prompt_instructions=3, # 기존 175개의 시드에서 랜덤으로 가져오는 참고용 개수
     request_batch_size=5, # batch_size 횟수
@@ -126,7 +126,7 @@ def generate_instruction_following_data(
 ):
 
     make_dataset.code_to_json_format(data_path="data/python/train/",
-                        json_path="code_dataset.jsonl")
+                        json_path="code_seed_tasks.jsonl")
 		### seed_instruction_data 매핑 (175개의 데이터셋, seed_tasks.jsonl)
     seed_tasks = [json.loads(l) for l in open(seed_tasks_path, "r")][0]
     # with open(seed_tasks_path, 'r') as f:
