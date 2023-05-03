@@ -46,6 +46,10 @@
 1. [input / output 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/Check_Input%26Output.ipynb)
 2. code Q&A 데이터셋에 대해 fine-tuning
     1. generation instruction dataset in specific domain (code Q&A)
+    - [dataset](https://github.com/jadecxliu/codeqa)
+    - [alpaca format 형식 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
+    - [prompt.txt 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
+    - [생성된 instuction dataset 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regen.json)
 
 ### Reference
 - [notion page](https://royal-tiger-88d.notion.site/Alpaca-KoAlpaca-b7584b13b81c45f0bdd2ca1a62d29707)
