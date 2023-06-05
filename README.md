@@ -44,20 +44,17 @@
 
 ----
 
-### Model Guidline
+### Code Q&A 데이터셋에 대해 fine-tuning
 
 1. [input / output 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/Check_Input%26Output.ipynb)
-2. code Q&A 데이터셋에 대해 fine-tuning
-
-#### code Q&A Alpaca
+2. generation instruction dataset in specific domain (code Q&A)
 - [dataset](https://github.com/jadecxliu/codeqa)
-1. generation instruction dataset in specific domain (code Q&A)
-  - [alpaca format 형식 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
-  - [prompt.txt 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
-  - [생성된 instuction dataset 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regen.json)
-
+- [alpaca format 형식 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
+- [prompt.txt 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
+- [생성된 instuction dataset 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regen.json)
+3. Alpaca model FT
 ----
 ### Reference
 - [notion page](https://royal-tiger-88d.notion.site/Alpaca-KoAlpaca-b7584b13b81c45f0bdd2ca1a62d29707)
+- [code Q&A notion page](https://www.notion.so/Alpaca-model-in-specific-domain-code-Q-A-6f3c8647f79c4c7585c65ad739fa1394?pvs=4)
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
-- [KoAlpaca](https://github.com/Beomi/KoAlpaca)
