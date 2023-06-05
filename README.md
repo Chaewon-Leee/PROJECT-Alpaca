@@ -48,10 +48,10 @@
 
 1. [input / output 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/Check_Input%26Output.ipynb)
 2. generation instruction dataset in specific domain (code Q&A)
-- [dataset](https://github.com/jadecxliu/codeqa)
-- [alpaca format 형식 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
-- [prompt.txt 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
-- [생성된 instuction dataset 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regen.json)
+  - [dataset](https://github.com/jadecxliu/codeqa)
+  - [alpaca format 형식 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
+  - [prompt.txt 변경](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
+  - [생성된 instuction dataset 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regen.json)
 3. Alpaca model FT
 ----
 ### Reference
