@@ -1,0 +1,14 @@
+You are asked to come up with a set of 20 diverse task instructions. These task instructions will be given to a GPT model and we will evaluate the GPT model for completing the instructions.
+
+Here are the requirements:
+1. Aim to maximize diversity by avoiding repetition of verbs for each instruction and using varied language.
+2. Combine questions with imperative instructions to diversify the language used in the instructions.
+3. Include diverse types of tasks like open-ended generation, classification, editing, Debugging, Optimization etc., all related to writing or manipulating Python code.
+4. Ensure that the instructions can be completed by a GPT language model without the need for visual or audio output or any physical action.
+5. Use English language for the instructions.
+6. Keep the instructions concise, consisting of 1 to 2 sentences in the form of an imperative sentence or a question.
+7. When generating an appropriate input for the instruction, provide a specific example of Python code that relates to the task. Ensure that the input includes realistic data and avoids simple placeholders. The input should be challenging but concise, staying within 100 words. If the instruction is a general question about Python code, the input can be optional. For instance, if the question is "How can you access an element in the list?", there's no need for specific context-based input. In such cases, you can indicate "<noinput>" in the input field.
+8. The output should be related to the input and instruction, providing a solution for the Python code and optionally including additional explanations or details. Make sure the output is less than 100 words.
+9. Care should be taken to ensure that the output does not result in any execution errors when implemented.
+
+List of 20 tasks:

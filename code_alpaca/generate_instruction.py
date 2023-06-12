@@ -18,8 +18,8 @@ from multiprocessing import Pool
 
 import numpy as np
 import tqdm
-from rouge_score import rouge_scorer
 import utils
+from rouge_score import rouge_scorer
 
 import fire
 
@@ -30,7 +30,7 @@ import make_dataset
 
 def encode_prompt(prompt_instructions):
     """Encode multiple prompt instructions into a single string."""
-    prompt = open("./code_prompt.txt").read() + "\n"
+    prompt = open("./prompts/code_prompt_trial_3.txt").read() + "\n"
 
     for idx, task_dict in enumerate(prompt_instructions):
         (instruction, input, output) = task_dict["instruction"], task_dict["input"], task_dict["output"]
@@ -112,9 +112,9 @@ def find_word_in_string(w, s):
 
 
 def generate_instruction_following_data(
-    output_dir="./",
+    output_dir="./code_regens",
     seed_tasks_path="./code_seed_tasks.jsonl", # 기존 175개의 데이터셋
-    num_instructions_to_generate=1000, # 만들고자 하는 데이터셋 총 개수
+    num_instructions_to_generate=2000, # 만들고자 하는 데이터셋 총 개수
     model_name="text-davinci-003",
     num_prompt_instructions=3, # 기존 175개의 시드에서 랜덤으로 가져오는 참고용 개수
     request_batch_size=5, # batch_size 횟수
@@ -125,8 +125,12 @@ def generate_instruction_following_data(
     num_cpus=16,
 ):
 
-    make_dataset.code_to_json_format(data_path="data/python/train/",
-                        json_path="code_seed_tasks.jsonl")
+    save_path = "code_regen_trial_3.json"
+
+
+    make_dataset.code_to_json_format(file_path="data/python/train/",
+                        json_file_path=seed_tasks_path)
+
 		### seed_instruction_data 매핑 (175개의 데이터셋, seed_tasks.jsonl)
     seed_tasks = [json.loads(l) for l in open(seed_tasks_path, "r")][0]
     # with open(seed_tasks_path, 'r') as f:
@@ -144,8 +148,8 @@ def generate_instruction_following_data(
     # load the LM-generated instructions
 		### 머신 생성 파일 regen.json에 저장
     machine_instruction_data = []
-    if os.path.exists(os.path.join(output_dir, "code_regen.json")):
-        machine_instruction_data = utils.jload(os.path.join(output_dir, "code_regen.json"))
+    if os.path.exists(os.path.join(output_dir, save_path)):
+        machine_instruction_data = utils.jload(os.path.join(output_dir, save_path))
         print(f"Loaded {len(machine_instruction_data)} machine-generated instructions")
 
     # similarities = {}
@@ -241,7 +245,7 @@ def generate_instruction_following_data(
         print(f"Generated {total} instructions, kept {keep} instructions")
 
 				### regen.json 경로에 machine_instruction_data 추가
-        utils.jdump(machine_instruction_data, os.path.join(output_dir, "code_regen.json"))
+        utils.jdump(machine_instruction_data, os.path.join(output_dir, save_path))
 
 
 def main(task, **kwargs):
