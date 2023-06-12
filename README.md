@@ -50,9 +50,10 @@
 2. generation instruction dataset in specific domain (code Q&A)
     - [dataset](https://github.com/jadecxliu/codeqa)
     - [alpaca format 형식](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/make_dataset.py)
-    - [최종 prompt.txt](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_prompt.txt)
-    - [생성된 최종 instuction dataset 확인](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regen.json)
+    - [trial 1](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regens/code_regen_trial_1.json)
+    - [trial 2](https://github.com/Chaewon-Leee/PROJECT-Alpaca/blob/main/code_alpaca/code_regens/code_regen_trial_2.json)
 3. Alpaca model FT
+
 ----
 ### Reference
 - [notion page](https://royal-tiger-88d.notion.site/Alpaca-KoAlpaca-b7584b13b81c45f0bdd2ca1a62d29707)
